@@ -11,7 +11,8 @@
         "pk": 1,
         "fields": {
             "title": "Harry Potter and the Philosopher's Stone",
-            "author": 1
+            "author": 1,
+            "image_url": "{% static 'images/Harry Potter and the Philosopher's Stone.jpeg' %}"
         }
     },
     {
@@ -26,7 +27,9 @@
         "pk": 2,
         "fields": {
             "title": "1984",
-            "author": 2
+            "author": 2,
+            "image_url": "{% static 'images/1984.jpeg' %}"
+
         }
     },
     {
@@ -41,7 +44,9 @@
         "pk": 3,
         "fields": {
             "title": "The Hobbit",
-            "author": 3
+            "author": 3,
+            "image_url": "{% static 'images/The Hobbit.jpeg' %}"
+
         }
     },
     {
@@ -56,7 +61,9 @@
         "pk": 4,
         "fields": {
             "title": "The Great Gatsby",
-            "author": 4
+            "author": 4,
+            "image_url": "{% static 'images/The Great Gatsby.jpeg' %}"
+
         }
     },
     {
@@ -71,7 +78,9 @@
         "pk": 5,
         "fields": {
             "title": "To Kill a Mockingbird",
-            "author": 5
+            "author": 5,
+            "image_url": "{% static 'images/To Kill a Mockingbird.jpeg' %}"
+
         }
     },
     {
@@ -86,7 +95,9 @@
         "pk": 6,
         "fields": {
             "title": "Pride and Prejudice",
-            "author": 6
+            "author": 6,
+            "image_url": "{% static 'images/Pride and Prejudice.jpeg' %}"
+
         }
     },
     {
@@ -101,7 +112,9 @@
         "pk": 7,
         "fields": {
             "title": "Adventures of Huckleberry Finn",
-            "author": 7
+            "author": 7,
+            "image_url": "{% static 'images/Adventures of Huckleberry Finn.jpeg' %}"
+
         }
     },
     {
@@ -116,7 +129,9 @@
         "pk": 8,
         "fields": {
             "title": "The Old Man and the Sea",
-            "author": 8
+            "author": 8,
+            "image_url": "{% static 'images/The Old Man and the Sea.jpeg' %}"
+
         }
     },
     {
@@ -131,7 +146,9 @@
         "pk": 9,
         "fields": {
             "title": "Frankenstein",
-            "author": 9
+            "author": 9,
+            "image_url": "{% static 'images/Frankenstein.jpeg' %}"
+
         }
     },
     {
@@ -146,7 +163,9 @@
         "pk": 10,
         "fields": {
             "title": "A Tale of Two Cities",
-            "author": 10
+            "author": 10,
+            "image_url": "{% static 'images/A Tale of Two Cities.jpeg' %}"
+
         }
     },
     {
@@ -161,7 +180,9 @@
         "pk": 11,
         "fields": {
             "title": "War and Peace",
-            "author": 11
+            "author": 11,
+            "image_url": "{% static 'images/War and Peace.jpeg' %}"
+
         }
     },
     {
@@ -176,7 +197,9 @@
         "pk": 12,
         "fields": {
             "title": "Moby-Dick",
-            "author": 12
+            "author": 12,
+            "image_url": "{% static 'images/Moby-Dick.jpeg' %}"
+
         }
     },
     {
@@ -191,7 +214,9 @@
         "pk": 13,
         "fields": {
             "title": "Don Quixote",
-            "author": 13
+            "author": 13,
+            "image_url": "{% static 'images/Don Quixote.jpeg' %}"
+
         }
     },
     {
@@ -206,7 +231,9 @@
         "pk": 14,
         "fields": {
             "title": "The Odyssey",
-            "author": 14
+            "author": 14,
+            "image_url": "{% static 'images/The Odyssey.jpeg' %}"
+
         }
     },
     {
@@ -221,7 +248,9 @@
         "pk": 15,
         "fields": {
             "title": "Hamlet",
-            "author": 15
+            "author": 15,
+            "image_url": "{% static 'images/Hamlet.jpeg' %}"
+
         }
     },
     {
@@ -236,7 +265,9 @@
         "pk": 16,
         "fields": {
             "title": "Crime and Punishment",
-            "author": 16
+            "author": 16,
+            "image_url": "{% static 'images/1984.jpeg' %}"
+
         }
     },
     {
@@ -251,7 +282,9 @@
         "pk": 17,
         "fields": {
             "title": "The Catcher in the Rye",
-            "author": 17
+            "author": 17,
+            "image_url": "{% static 'images/The Catcher in the Rye.jpeg' %}"
+
         }
     },
     {
@@ -266,7 +299,9 @@
         "pk": 18,
         "fields": {
             "title": "One Hundred Years of Solitude",
-            "author": 18
+            "author": 18,
+            "image_url": "{% static 'images/One Hundred Years of Solitude.jpeg' %}"
+
         }
     },
     {
@@ -281,7 +316,9 @@
         "pk": 19,
         "fields": {
             "title": "Ulysses",
-            "author": 19
+            "author": 19,
+            "image_url": "{% static 'images/Ulysses.jpeg' %}"
+
         }
     },
     {
@@ -296,7 +333,9 @@
         "pk": 20,
         "fields": {
             "title": "Wuthering Heights",
-            "author": 20
+            "author": 20,
+            "image_url": "{% static 'images/Wuthering Heights.jpeg' %}"
+
         }
     },
     {
@@ -311,7 +350,9 @@
         "pk": 21,
         "fields": {
             "title": "Twenty Thousand Leagues Under the Sea",
-            "author": 21
+            "author": 21,
+            "image_url": "{% static 'images/Twenty Thousand Leagues Under the Sea.jpeg' %}"
+
         }
     },
     {
@@ -326,7 +367,9 @@
         "pk": 22,
         "fields": {
             "title": "The Metamorphosis",
-            "author": 22
+            "author": 22,
+            "image_url": "{% static 'images/The Metamorphosis.jpeg' %}"
+
         }
     },
     {
@@ -341,7 +384,9 @@
         "pk": 23,
         "fields": {
             "title": "Les Miserables",
-            "author": 23
+            "author": 23,
+            "image_url": "{% static 'images/Les Miserables.jpeg' %}"
+
         }
     },
     {
@@ -356,7 +401,9 @@
         "pk": 24,
         "fields": {
             "title": "Little Women",
-            "author": 24
+            "author": 24,
+            "image_url": "{% static 'images/Little Women.jpeg' %}"
+
         }
     },
     {
@@ -371,7 +418,9 @@
         "pk": 25,
         "fields": {
             "title": "Jane Eyre",
-            "author": 25
+            "author": 25,
+            "image_url": "{% static 'images/Jane Eyre.jpeg' %}"
+
         }
     }
 ]
