@@ -1,0 +1,377 @@
+[
+    {
+        "model": "books.author",
+        "pk": 1,
+        "fields": {
+            "name": "J.K. Rowling"
+        }
+    },
+    {
+        "model": "books.book",
+        "pk": 1,
+        "fields": {
+            "title": "Harry Potter and the Philosopher's Stone",
+            "author": 1
+        }
+    },
+    {
+        "model": "books.author",
+        "pk": 2,
+        "fields": {
+            "name": "George Orwell"
+        }
+    },
+    {
+        "model": "books.book",
+        "pk": 2,
+        "fields": {
+            "title": "1984",
+            "author": 2
+        }
+    },
+    {
+        "model": "books.author",
+        "pk": 3,
+        "fields": {
+            "name": "J.R.R. Tolkien"
+        }
+    },
+    {
+        "model": "books.book",
+        "pk": 3,
+        "fields": {
+            "title": "The Hobbit",
+            "author": 3
+        }
+    },
+    {
+        "model": "books.author",
+        "pk": 4,
+        "fields": {
+            "name": "F. Scott Fitzgerald"
+        }
+    },
+    {
+        "model": "books.book",
+        "pk": 4,
+        "fields": {
+            "title": "The Great Gatsby",
+            "author": 4
+        }
+    },
+    {
+        "model": "books.author",
+        "pk": 5,
+        "fields": {
+            "name": "Harper Lee"
+        }
+    },
+    {
+        "model": "books.book",
+        "pk": 5,
+        "fields": {
+            "title": "To Kill a Mockingbird",
+            "author": 5
+        }
+    },
+    {
+        "model": "books.author",
+        "pk": 6,
+        "fields": {
+            "name": "Jane Austen"
+        }
+    },
+    {
+        "model": "books.book",
+        "pk": 6,
+        "fields": {
+            "title": "Pride and Prejudice",
+            "author": 6
+        }
+    },
+    {
+        "model": "books.author",
+        "pk": 7,
+        "fields": {
+            "name": "Mark Twain"
+        }
+    },
+    {
+        "model": "books.book",
+        "pk": 7,
+        "fields": {
+            "title": "Adventures of Huckleberry Finn",
+            "author": 7
+        }
+    },
+    {
+        "model": "books.author",
+        "pk": 8,
+        "fields": {
+            "name": "Ernest Hemingway"
+        }
+    },
+    {
+        "model": "books.book",
+        "pk": 8,
+        "fields": {
+            "title": "The Old Man and the Sea",
+            "author": 8
+        }
+    },
+    {
+        "model": "books.author",
+        "pk": 9,
+        "fields": {
+            "name": "Mary Shelley"
+        }
+    },
+    {
+        "model": "books.book",
+        "pk": 9,
+        "fields": {
+            "title": "Frankenstein",
+            "author": 9
+        }
+    },
+    {
+        "model": "books.author",
+        "pk": 10,
+        "fields": {
+            "name": "Charles Dickens"
+        }
+    },
+    {
+        "model": "books.book",
+        "pk": 10,
+        "fields": {
+            "title": "A Tale of Two Cities",
+            "author": 10
+        }
+    },
+    {
+        "model": "books.author",
+        "pk": 11,
+        "fields": {
+            "name": "Leo Tolstoy"
+        }
+    },
+    {
+        "model": "books.book",
+        "pk": 11,
+        "fields": {
+            "title": "War and Peace",
+            "author": 11
+        }
+    },
+    {
+        "model": "books.author",
+        "pk": 12,
+        "fields": {
+            "name": "Herman Melville"
+        }
+    },
+    {
+        "model": "books.book",
+        "pk": 12,
+        "fields": {
+            "title": "Moby-Dick",
+            "author": 12
+        }
+    },
+    {
+        "model": "books.author",
+        "pk": 13,
+        "fields": {
+            "name": "Miguel de Cervantes"
+        }
+    },
+    {
+        "model": "books.book",
+        "pk": 13,
+        "fields": {
+            "title": "Don Quixote",
+            "author": 13
+        }
+    },
+    {
+        "model": "books.author",
+        "pk": 14,
+        "fields": {
+            "name": "Homer"
+        }
+    },
+    {
+        "model": "books.book",
+        "pk": 14,
+        "fields": {
+            "title": "The Odyssey",
+            "author": 14
+        }
+    },
+    {
+        "model": "books.author",
+        "pk": 15,
+        "fields": {
+            "name": "William Shakespeare"
+        }
+    },
+    {
+        "model": "books.book",
+        "pk": 15,
+        "fields": {
+            "title": "Hamlet",
+            "author": 15
+        }
+    },
+    {
+        "model": "books.author",
+        "pk": 16,
+        "fields": {
+            "name": "Fyodor Dostoevsky"
+        }
+    },
+    {
+        "model": "books.book",
+        "pk": 16,
+        "fields": {
+            "title": "Crime and Punishment",
+            "author": 16
+        }
+    },
+    {
+        "model": "books.author",
+        "pk": 17,
+        "fields": {
+            "name": "J.D. Salinger"
+        }
+    },
+    {
+        "model": "books.book",
+        "pk": 17,
+        "fields": {
+            "title": "The Catcher in the Rye",
+            "author": 17
+        }
+    },
+    {
+        "model": "books.author",
+        "pk": 18,
+        "fields": {
+            "name": "Gabriel Garcia Marquez"
+        }
+    },
+    {
+        "model": "books.book",
+        "pk": 18,
+        "fields": {
+            "title": "One Hundred Years of Solitude",
+            "author": 18
+        }
+    },
+    {
+        "model": "books.author",
+        "pk": 19,
+        "fields": {
+            "name": "James Joyce"
+        }
+    },
+    {
+        "model": "books.book",
+        "pk": 19,
+        "fields": {
+            "title": "Ulysses",
+            "author": 19
+        }
+    },
+    {
+        "model": "books.author",
+        "pk": 20,
+        "fields": {
+            "name": "Emily Bronte"
+        }
+    },
+    {
+        "model": "books.book",
+        "pk": 20,
+        "fields": {
+            "title": "Wuthering Heights",
+            "author": 20
+        }
+    },
+    {
+        "model": "books.author",
+        "pk": 21,
+        "fields": {
+            "name": "Jules Verne"
+        }
+    },
+    {
+        "model": "books.book",
+        "pk": 21,
+        "fields": {
+            "title": "Twenty Thousand Leagues Under the Sea",
+            "author": 21
+        }
+    },
+    {
+        "model": "books.author",
+        "pk": 22,
+        "fields": {
+            "name": "Franz Kafka"
+        }
+    },
+    {
+        "model": "books.book",
+        "pk": 22,
+        "fields": {
+            "title": "The Metamorphosis",
+            "author": 22
+        }
+    },
+    {
+        "model": "books.author",
+        "pk": 23,
+        "fields": {
+            "name": "Victor Hugo"
+        }
+    },
+    {
+        "model": "books.book",
+        "pk": 23,
+        "fields": {
+            "title": "Les Miserables",
+            "author": 23
+        }
+    },
+    {
+        "model": "books.author",
+        "pk": 24,
+        "fields": {
+            "name": "Louisa May Alcott"
+        }
+    },
+    {
+        "model": "books.book",
+        "pk": 24,
+        "fields": {
+            "title": "Little Women",
+            "author": 24
+        }
+    },
+    {
+        "model": "books.author",
+        "pk": 25,
+        "fields": {
+            "name": "Charlotte Bronte"
+        }
+    },
+    {
+        "model": "books.book",
+        "pk": 25,
+        "fields": {
+            "title": "Jane Eyre",
+            "author": 25
+        }
+    }
+]
