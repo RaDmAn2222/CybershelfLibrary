@@ -20,10 +20,10 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # See https://docs.djangoproject.com/en/5.0/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = "django-insecure-ir7-yr3&s5q8zbxe+yzp3l3p6(5(rfe7p1o%!ry)=&3@zcsyy0"
+SECRET_KEY = ""
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
 ALLOWED_HOSTS = ['*']
 
@@ -38,6 +38,8 @@ INSTALLED_APPS = [
     "django.contrib.messages",
     "django.contrib.staticfiles",
     "books",
+    'compressor',
+    'sass_processor',
 ]
 
 MIDDLEWARE = [
@@ -77,12 +79,12 @@ WSGI_APPLICATION = "OnlineLibrary.wsgi.application"
 
 DATABASES = {
     "default": {
-        'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'OnlineLibrary',
-        'USER': 'RaDmAn2222',
-        'PASSWORD': 'rad123h123',
-        'HOST': 'localhost',  # Or your MySQL host
-        'PORT': '3306',  # Default MySQL port
+        'ENGINE': '',
+        'NAME': '',
+        'USER': '',
+        'PASSWORD': '',
+        'HOST': '',  # Or your MySQL host
+        'PORT': '',  # Default MySQL port
     }
 }
 
@@ -133,3 +135,20 @@ STATICFILES_DIRS = [
 # https://docs.djangoproject.com/en/5.0/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = "django.db.models.BigAutoField"
+
+
+# Sass processor settings
+SASS_PROCESSOR_ENABLED = True
+SASS_PROCESSOR_ROOT = BASE_DIR / 'static'
+
+# Compressor settings
+STATICFILES_FINDERS = (
+    'django.contrib.staticfiles.finders.FileSystemFinder',
+    'django.contrib.staticfiles.finders.AppDirectoriesFinder',
+    'compressor.finders.CompressorFinder',
+)
+COMPRESS_PRECOMPILERS = (
+    ('text/x-scss', 'django_libsass.SassCompiler'),
+)
+
+COMPRESS_ENABLED = True

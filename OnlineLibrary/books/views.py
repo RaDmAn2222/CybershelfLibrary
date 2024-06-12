@@ -10,3 +10,11 @@ def books(request):
         "books": books,
     }
     return HttpResponse(template.render(context, request))
+
+def about(request):
+    template = loader.get_template('about.html')
+    return HttpResponse(template.render())
+
+def info(request):
+    template = loader.get_template('info.html')
+    return HttpResponse(template.render())
