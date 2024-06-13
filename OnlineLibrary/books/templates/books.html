@@ -32,26 +32,24 @@
                 <!-- Add other menu items here -->
             </ul>
         </nav>
-
-        <div id="main">
-            <div class="inner">
-                <h1>Books</h1>
-                {% if books %}
-                    <ul>
-                        {% for book in books %}
-                            <li>
-                                {{ book.title }} by {{ book.author }}
-                                {% if book.image %}
-                                    <img src="{{ book.image.url }}" alt="{{ book.title }}">
-                                {% endif %}
-                            </li>
-                        {% endfor %}
-                    </ul>
-                {% else %}
-                    <p>No books available.</p>
-                {% endif %}
-            </div>
-        </div>
+        
+        <section class="tiles">
+            {% if books %}
+                {% for book in books %}
+                    <article class="style1">
+                        <span class="image">
+                            <img src="{% static book.image_url %}" alt="{{ book.image_url }}" style="height: 50%; width: 50%;"/>
+                        </span>
+                        <a href="generic.html">
+                            <h2>{{book.title}}</h2>
+                            <p>By {{book.author}}</p>
+                        </a>
+                    </article>
+                    {% endfor %}
+            {% else %}
+                <p>No books available.</p>
+            {% endif %}
+        </section>
 
         <footer id="footer">
             <div class="inner">
