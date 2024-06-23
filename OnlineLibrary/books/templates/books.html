@@ -1,99 +1,82 @@
 {% load static %}
 <!DOCTYPE HTML>
 <html>
-<head>
-    <title>Book List</title>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-    <link rel="stylesheet" href="{% static 'css/styles.css' %}" />
-</head>
-<body class="is-preload">
-    <div id="wrapper">
-        <!-- Header -->
-        <header id="header">
-            <div class="inner">
-                <a href="{% url 'books' %}" class="logo">
-                    <span class="symbol"><img src="{% static 'images/logo.svg' %}" alt="" /></span>
-                    <span class="title">Library</span>
-                </a>
-                <nav>
-                    <ul>
-                        <li><a href="#menu" id="menuToggle"><span class="hamburger"></span></a></li>
-                    </ul>
-                </nav>
-            </div>
-        </header>
+    <head>
+        <title>CyberShelf Library</title>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+        <link rel="stylesheet" href="{% static 'books.css' %}" />
+    </head>
+    <body class="is-preload">
+        <div id="wrapper">
+            <!-- Header -->
+            <header>
+                <div class="container">
+                    <div class="topnav">
+                    <a href="/">Home</a>
+                    <a class="active"  href="/books">Books</a>
+                    <a href="/about">About</a>
+                    </div>
+                </div>
+            </header>
 
-        <!-- Menu -->
-        <nav id="menu">
-            <div class="inner">
-                <h2>Menu</h2>
-                <ul>
-                    <li><a href="{% url 'books' %}">Home</a></li>
-                    <li><a href="{% url 'about' %}">About</a></li>
-                    <!-- Add other menu items here -->
-                </ul>
-                <a class="close" href="#menu">Close</a>
-            </div>
-        </nav>
+            <!-- Main Content -->
+            <section class="tiles" style="margin: 5% 12%; width: fit-content;">
+                {% if books %}
+                    {% for book in books %}
+                        <article class="style1">
+                            <span class="image">
+                                <img src="{% static book.image_url %}" alt="{{ book.title }}" style="width: 50%; height: 300px;" />
+                            </span>
+                            <a href="#">
+                                <h2>{{ book.title }}</h2>
+                                <p>By {{ book.author }}</p>
+                            </a>
+                        </article>
+                    {% endfor %}
+                {% else %}
+                    <p>No books available.</p>
+                {% endif %}
+            </section>
 
-        <!-- Main Content -->
-        <section class="tiles" style="margin: 5% 12%; width: fit-content;">
-            {% if books %}
-                {% for book in books %}
-                    <article class="style1">
-                        <span class="image">
-                            <img src="{% static book.image_url %}" alt="{{ book.title }}" style="width: 50%; height: 300px;" />
-                        </span>
-                        <a href="#">
-                            <h2>{{ book.title }}</h2>
-                            <p>By {{ book.author }}</p>
-                        </a>
-                    </article>
-                {% endfor %}
-            {% else %}
-                <p>No books available.</p>
-            {% endif %}
-        </section>
-
-        <!-- Footer -->
-        <footer id="footer">
-            <div class="inner">
-                <section>
-                    <h2>Get in touch</h2>
-                    <form method="post" action="#">
-                        <div class="fields">
-                            <div class="field half">
-                                <input type="text" name="name" id="name" placeholder="Name" />
+            <!-- Footer -->
+            <footer id="footer">
+                <div class="inner">
+                    <section>
+                        <h2>Get in touch</h2>
+                        <form method="post" action="#">
+                            <div class="fields">
+                                <div class="field half">
+                                    <input type="text" name="name" id="name" placeholder="Name" />
+                                </div>
+                                <div class="field half">
+                                    <input type="email" name="email" id="email" placeholder="Email" />
+                                </div>
+                                <div class="field">
+                                    <textarea name="message" id="message" placeholder="Message"></textarea>
+                                </div>
                             </div>
-                            <div class="field half">
-                                <input type="email" name="email" id="email" placeholder="Email" />
-                            </div>
-                            <div class="field">
-                                <textarea name="message" id="message" placeholder="Message"></textarea>
-                            </div>
-                        </div>
-                        <ul class="actions">
-                            <li><input type="submit" value="Send" class="primary" /></li>
+                            <ul class="actions">
+                                <li><input type="submit" value="Send" class="primary" /></li>
+                            </ul>
+                        </form>
+                    </section>
+                    <section>
+                        <h2>Follow</h2>
+                        <ul class="icons">
+                            <li><a href="#" class="icon brands style2 fa-github"><span class="label">GitHub</span></a></li>
+                            <li><a href="#" class="icon solid style2 fa-envelope"><span class="label">Email</span></a></li>
                         </ul>
-                    </form>
-                </section>
-                <section>
-                    <h2>Follow</h2>
-                    <ul class="icons">
-                        <li><a href="#" class="icon brands style2 fa-github"><span class="label">GitHub</span></a></li>
-                        <li><a href="#" class="icon solid style2 fa-envelope"><span class="label">Email</span></a></li>
+                    </section>
+                    <ul class="copyright">
+                        <li>&copy; CyberShelf Library. All rights reserved. Design: RaDmAn2222 </li>
                     </ul>
-                </section>
-                <ul class="copyright">
-                    <li>&copy; Untitled. All rights reserved</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
-                </ul>
-            </div>
-        </footer>
-    </div>
+                </div>
+            </footer>
+        </div>
 
 
-    <script src="{% static 'js/randomColors.js' %}"></script>
-    <script src="{% static 'js/menuToggle.js' %}"></script>
-</body>
+        <script src="{% static 'js/randomColors.js' %}"></script>
+
+    </body>
 </html>

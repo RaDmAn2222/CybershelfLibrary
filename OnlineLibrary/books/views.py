@@ -11,10 +11,10 @@ def books(request):
     }
     return HttpResponse(template.render(context, request))
 
-def about(request):
-    template = loader.get_template('about.html')
+def main(request):
+    template = loader.get_template('main.html')
     return HttpResponse(template.render())
 
-def info(request):
-    template = loader.get_template('info.html')
+def about(request):
+    template = loader.get_template('about.html')
     return HttpResponse(template.render())

@@ -1,0 +1,42 @@
+@font-face {
+    font-family: 'rubik';
+    src: url("{% static 'fonts/Rubik-Regular.ttf' %}");
+}
+
+html {
+    font-family: "rubik";
+}
+
+.container {
+    position: relative; /* Ensure this is relative to keep it above the ::before pseudo-element */
+    margin: 0;
+    width: auto;
+    left: 20px;
+    top: 30px;
+}
+
+/* The navbar */
+.topnav {
+    overflow: hidden;
+    background-color: transparent;
+}
+
+/* Navbar links */
+.topnav a {
+    float: left;
+    color: #000000;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 22px;
+}
+
+.topnav a:hover:not(.active) {
+    background-color: transparent;
+    color: #e5e5e5;
+}
+
+.active {
+    background-color: #fca311;
+    border-radius: 80px;
+}

@@ -1,9 +1,19 @@
+@font-face {
+    font-family: 'rubik';
+    src: url("{% static 'fonts/Rubik-Regular.ttf' %}");
+}
+
+html {
+    font-family: "rubik";
+}
+
 body {
     font-family: Arial, sans-serif;
     background-color: #f4f4f4;
     margin: 0;
-    padding: 20px;
+    padding: 0;
 }
+
 
 #wrapper {
     display: flex;
@@ -11,94 +21,40 @@ body {
     min-height: 100vh;
 }
 
-header {
-    background: #333;
-    color: #fff;
-    padding: 1rem;
+/* Add a black background color to the top navigation */
+
+.container {
+    position: relative; /* Ensure this is relative to keep it above the ::before pseudo-element */
+    margin: 0;
+    width: auto;
+    left: 20px;
+    top: 30px;
 }
 
-header .logo {
-    display: flex;
-    align-items: center;
+/* The navbar */
+.topnav {
+    overflow: hidden;
+    background-color: transparent;
+}
+
+/* Navbar links */
+.topnav a {
+    float: left;
+    color: #000000;
+    text-align: center;
+    padding: 14px 16px;
     text-decoration: none;
-    color: #fff;
+    font-size: 22px;
 }
 
-header .logo .symbol img {
-    height: 40px;
-    margin-right: 10px;
+.topnav a:hover:not(.active) {
+    background-color: transparent;
+    color: #e5e5e5;
 }
 
-header nav ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-}
-
-header nav ul li {
-    display: inline;
-    margin-right: 10px;
-}
-
-.hamburger {
-    display: inline-block;
-    width: 30px;
-    height: 2px;
-    background-color: #fff;
-    position: relative;
-    cursor: pointer;
-}
-
-.hamburger::before,
-.hamburger::after {
-    content: '';
-    display: block;
-    width: 30px;
-    height: 2px;
-    background-color: #fff;
-    position: absolute;
-    left: 0;
-    transition: all 0.3s ease;
-}
-
-.hamburger::before {
-    top: -8px;
-}
-
-.hamburger::after {
-    top: 8px;
-}
-
-#menu {
-    background: #444;
-    color: #fff;
-    padding: 1rem;
-    display: none;
-    position: absolute;
-    top: 0;
-    right: 0;
-    width: 250px;
-    height: 100%;
-    z-index: 1000;
-    transition: transform 0.3s ease;
-}
-
-#menu.hidden {
-    transform: translateX(100%);
-}
-
-#menu h2 {
-    margin-top: 0;
-}
-
-#menu ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-}
-
-#menu ul li {
-    margin-bottom: 10px;
+.active {
+    background-color: #fca311;
+    border-radius: 80px;
 }
 
 .tiles {
@@ -152,8 +108,8 @@ header nav ul li {
 }
 
 footer {
-    background: #333;
-    color: #fff;
+    background: #14213d;
+    color: #fca311;
     padding: 2rem 1rem;
     margin-top: auto;
 }

@@ -1,3 +1,12 @@
+@font-face {
+    font-family: 'rubik';
+    src: url("{% static 'fonts/Rubik-Regular.ttf' %}");
+}
+
+html {
+    font-family: "rubik";
+}
+
 body {
     font-family: Arial, sans-serif;
     background-color: #f4f4f4;
@@ -13,28 +22,7 @@ body {
 }
 
 /* Add a black background color to the top navigation */
-.bg-img {
-    position: relative;
-    min-height: 100vh;
-    overflow: hidden; /* Ensure any overflow is hidden */
-}
 
-.bg-img::before {
-    content: "";
-    position: absolute;
-    top: -10px; /* Extend slightly beyond the viewport */
-    left: -10px; /* Extend slightly beyond the viewport */
-    width: calc(100% + 20px); /* Extend slightly beyond the viewport */
-    height: calc(100% + 20px); /* Extend slightly beyond the viewport */
-    background-image: url("1326370.png");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    filter: blur(5px); /* Adjust the blur value as needed */
-    z-index: -1; /* Ensure the blurred image is behind the content */
-}
-
-/* Position the navbar container inside the image */
 .container {
     position: relative; /* Ensure this is relative to keep it above the ::before pseudo-element */
     margin: 0;
@@ -52,11 +40,12 @@ body {
 /* Navbar links */
 .topnav a {
     float: left;
-    color: white;
+    color: #000000;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
     font-size: 22px;
+    font-family: 'rubik';
 }
 
 .topnav a:hover:not(.active) {
