@@ -3,7 +3,7 @@
     src: url("{% static 'fonts/Rubik-Regular.ttf' %}");
 }
 
-html {
+* {
     font-family: "rubik";
 }
 

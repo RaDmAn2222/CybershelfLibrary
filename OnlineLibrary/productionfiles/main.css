@@ -3,7 +3,7 @@
     src: url("fonts/Rubik-Regular.ttf");
 }
 
-html {
+* {
     font-family: "rubik";
 }
 
@@ -113,16 +113,17 @@ body {
 
 .box {
     background-color: #fca311;
-    width: 45%;
+    width: 25%;
     margin: 30px;
     padding: 20px;
     border: 1px solid #ccc;
-    box-shadow: 4px 4px 7px rgba(0, 0, 0, 0.1);
+    box-shadow: 4px 50px 50px rgba(0, 0, 0, 0.1);
     box-sizing: border-box;
     height: 300px;
-    width: 25%;
     align-items: center;
     border-radius: 10px;
+    text-align: center;
+    transition: transform 0.3s ease; /* Smooth scaling */
 }
 
 .box img {
@@ -136,20 +137,35 @@ body {
 
 .box p {
     font-size: 1em;
-    margin: 0;
+    margin: 8px;
+}
+
+.box:hover {
+    transform: scale(1.1); /* Scaling up by 10% */
 }
 
 footer {
-    background-color: #14213d;
+    background-color: #0d1b2a;
     color: #fca311;
-    padding: 2rem 1rem;
-    margin-top: auto;
+    padding: 5%;
+    margin-top: 1%;
 }
 
 footer .inner {
     display: flex;
     justify-content: space-between;
+    align-items: flex-start;
     flex-wrap: wrap;
+}
+
+footer .formcontainer, .social, .reference {
+    flex: 1 1 30%;
+    margin: 0 10px;
+    min-width: 200px; /* Ensure elements don't get too narrow */
+}
+
+.social {
+    padding: 3%;
 }
 
 footer h2 {
@@ -158,22 +174,33 @@ footer h2 {
 
 footer .icons {
     list-style: none;
-    padding: 0;
     display: flex;
-    gap: 10px;
+    padding: 0;
+    margin: 0;
 }
 
 footer .icons li {
-    display: inline;
+    margin-right: 10px;
+}
+
+footer .icons img {
+    width: 42px; /* Adjust size as needed */
+    height: 42px; /* Adjust size as needed */
+    padding: 0.5%;
 }
 
 footer .icons a {
-    color: #fff;
+    display: inline-block;
+}
+
+footer .reference a {
+    display: block;
+    color: #fca311;
     text-decoration: none;
 }
 
-footer .icons a:hover {
-    color: #ddd;
+footer .reference a:hover {
+    text-decoration: underline;
 }
 
 footer .copyright {
@@ -184,4 +211,67 @@ footer .copyright {
     justify-content: center;
     width: 100%;
     margin-top: 1rem;
+}
+
+.formcontainer {
+    background-color: transparent;
+    padding: 20px 30px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    width: 100%;
+}
+
+.contact-form h2 {
+    margin-bottom: 20px;
+    color: #fca311;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    color: #fca311;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    background-color: #f9f9f9;
+}
+
+.form-group input:focus,
+.form-group textarea:focus {
+    border-color: #fca311;
+    background-color: #fff;
+    outline: none;
+}
+
+.submit-btn {
+    width: 100%;
+    padding: 10px 15px;
+    background-color: #fca311;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.submit-btn:hover {
+    background-color: #0056b3;
+}
+
+.reference {
+    padding: 20px 30px;
+}
+
+.social {
+    padding: 20px 50px;
 }

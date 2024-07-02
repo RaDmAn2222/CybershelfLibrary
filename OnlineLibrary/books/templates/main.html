@@ -70,42 +70,51 @@
                     <br>
                     <p>Become a member and unlock exclusive benefits.</p>
                 </div>
-            </div>
+            </div>            
             
             <!-- Footer -->
             <footer id="footer">
                 <div class="inner">
-                    <section>
-                        <h2>Get in touch</h2>
-                        <form method="post" action="#">
-                            <div class="fields">
-                                <div class="field half">
-                                    <input type="text" name="name" id="name" placeholder="Name" />
-                                </div>
-                                <div class="field half">
-                                    <input type="email" name="email" id="email" placeholder="Email" />
-                                </div>
-                                <div class="field">
-                                    <textarea name="message" id="message" placeholder="Message"></textarea>
-                                </div>
+                    <div class="formcontainer">
+                        <form action="/submit" method="post" class="contact-form">
+                            <h2>Contact Us</h2>
+                            <div class="form-group">
+                                <label for="email">Email</label>
+                                <input type="email" id="email" name="email" required>
                             </div>
-                            <ul class="actions">
-                                <li><input type="submit" value="Send" class="primary" /></li>
-                            </ul>
+                            <div class="form-group">
+                                <label for="message">Message</label>
+                                <textarea id="message" name="message" rows="5" required></textarea>
+                            </div>
+                            <button type="submit" class="submit-btn">Submit</button>
                         </form>
-                    </section>
-                    <section>
-                        <h2>Follow</h2>
+                    </div>
+                    <div class="social">
+                        <h2>Social Networks</h2>
                         <ul class="icons">
-                            <li><a href="#" class="icon brands style2 fa-github"><span class="label">GitHub</span></a></li>
-                            <li><a href="#" class="icon solid style2 fa-envelope"><span class="label">Email</span></a></li>
+                            <li>
+                                <a href="https://github.com/RaDmAn2222" target="_blank" class="icon brands style2 fa-github">
+                                    <img src="{% static 'images/github.png' %}" alt="GitHub">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="mailto:radmanhabibi2222@gmail.com?Subject=Some%20subject" target="_blank" class="icon solid style2 fa-envelope">
+                                    <img src="{% static 'images/email.png' %}" alt="Email">
+                                </a>
+                            </li>
                         </ul>
-                    </section>
-                    <ul class="copyright">
-                        <li>&copy; CyberShelf Library. All rights reserved. Design: RaDmAn2222</li>
-                    </ul>
+                    </div>
+                    <div class="reference">
+                        <h2>Quick Links</h2>
+                        <a href="/"><p>Home</p></a>
+                        <a href="/books"><p>Books</p></a>
+                        <a href="/about"><p>About</p></a>
+                    </div>
                 </div>
-            </footer>
+                <ul class="copyright">
+                    <li>&copy; CyberShelf Library. All rights reserved. Design: RaDmAn2222</li>
+                </ul>
+            </footer>            
         </div>
 
     </body>
