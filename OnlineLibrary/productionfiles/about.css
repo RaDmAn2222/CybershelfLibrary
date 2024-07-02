@@ -36,11 +36,6 @@ body {
     background-color: transparent;
 }
 
-.topnav {
-    overflow: hidden;
-    background-color: transparent;
-}
-
 /* Navbar links */
 .topnav a {
     float: left;
@@ -60,6 +55,20 @@ body {
 .active {
     background-color: #fca311;
     border-radius: 80px;
+}
+
+.maincontent {
+    margin: 10%;
+    padding: 5%;
+    background-color: #adb5bd;
+    border-radius: 15px;
+}
+
+.maincontent p {
+    font-size: 120%;
+    color: black;
+    text-align: justify;
+    text-justify: inter-word;
 }
 
 footer {
