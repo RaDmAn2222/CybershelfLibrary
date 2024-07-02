@@ -1,6 +1,6 @@
 @font-face {
     font-family: 'rubik';
-    src: url("{% static 'fonts/Rubik-Regular.ttf' %}");
+    src: url("fonts/Rubik-Regular.ttf");
 }
 
 * {
@@ -14,7 +14,6 @@ body {
     padding: 0;
 }
 
-
 #wrapper {
     display: flex;
     flex-direction: column;
@@ -27,11 +26,16 @@ body {
     position: relative; /* Ensure this is relative to keep it above the ::before pseudo-element */
     margin: 0;
     width: auto;
-    left: 20px;
-    top: 30px;
+    left: 30px;
+    top: 40px;
+    align-items: center;
 }
 
-/* The navbar */
+.topnav {
+    overflow: hidden;
+    background-color: transparent;
+}
+
 .topnav {
     overflow: hidden;
     background-color: transparent;
@@ -40,17 +44,17 @@ body {
 /* Navbar links */
 .topnav a {
     float: left;
-    color: #000000;
+    color: black;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
     font-size: 22px;
-    font-family: 'rubik';
+    font-family: "rubik";
 }
 
 .topnav a:hover:not(.active) {
     background-color: transparent;
-    color: #e5e5e5;
+    color: #6e6e6e;
 }
 
 .active {
@@ -58,23 +62,46 @@ body {
     border-radius: 80px;
 }
 
+.toph {
+    margin-top: 6%;
+    margin-left: 13%;
+    font-size: 120%;
+}
+
+.maindiv {
+    background-color: #fca311;
+    border-radius: 80px;
+    margin: 1% 12% 5% 12%;
+    width: fit-content;
+}
+
 .tiles {
     display: flex;
     flex-wrap: wrap;
     gap: 20px;
+    column-gap: 35px;
+    padding: 5%;
+    justify-content: center; /* Center the tiles horizontally */
 }
 
 .tiles article {
     position: relative;
-    width: 200px;
-    height: 300px;
+    width: 500px; /* Adjust width to fit image and text horizontally */
+    margin: 10px;
+    padding: 20px;
+    background: white; /* White background for each tile */
+    border-radius: 10px; /* Rounded corners */
+    display: flex;
+    align-items: center;
     overflow: hidden;
-    cursor: pointer;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: Add a slight shadow for better visibility */
 }
 
 .tiles article .image {
-    width: 100%;
-    height: 100%;
+    flex-shrink: 0; /* Prevent image from shrinking */
+    width: 250px; /* Adjust width for the image */
+    height: 360px; /* Increased height for the image */
+    margin-right: 30px; /* More space between image and text */
 }
 
 .tiles article img {
@@ -82,43 +109,54 @@ body {
     height: 100%;
     object-fit: cover;
     transition: transform 0.3s ease;
+    border-radius: 10px; /* Rounded corners for images */
 }
 
 .tiles article .book-info {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
-    text-align: center;
-    opacity: 1;
-    transition: opacity 0.3s ease;
-    color: #fff;
+    color: #000;
 }
 
-.tiles article:hover .book-info {
-    opacity: 0;
+.tiles article .book-title {
+    font-weight: bold;
+    font-size: 20px; /* Adjust font size as needed */
+    margin-bottom: 10px; /* More space below the title */
+}
+
+.tiles article .book-author {
+    color: #555; /* Slightly muted color for the author */
+    font-size: 18px; /* Adjust font size as needed */
 }
 
 .tiles article:hover img {
-    transform: scale(1.1);
+    transform: scale(1.05); /* Slightly smaller scale effect */
 }
 
+
 footer {
-    background: #14213d;
+    background-color: #0d1b2a;
     color: #fca311;
-    padding: 2rem 1rem;
-    margin-top: auto;
+    padding: 5%;
+    margin-top: 1%;
 }
 
 footer .inner {
     display: flex;
     justify-content: space-between;
+    align-items: flex-start;
     flex-wrap: wrap;
+}
+
+footer .formcontainer, .social, .reference {
+    flex: 1 1 30%;
+    margin: 0 10px;
+    min-width: 200px; /* Ensure elements don't get too narrow */
+}
+
+.social {
+    padding: 3%;
 }
 
 footer h2 {
@@ -127,22 +165,33 @@ footer h2 {
 
 footer .icons {
     list-style: none;
-    padding: 0;
     display: flex;
-    gap: 10px;
+    padding: 0;
+    margin: 0;
 }
 
 footer .icons li {
-    display: inline;
+    margin-right: 10px;
+}
+
+footer .icons img {
+    width: 42px; /* Adjust size as needed */
+    height: 42px; /* Adjust size as needed */
+    padding: 0.5%;
 }
 
 footer .icons a {
-    color: #fff;
+    display: inline-block;
+}
+
+footer .reference a {
+    display: block;
+    color: #fca311;
     text-decoration: none;
 }
 
-footer .icons a:hover {
-    color: #ddd;
+footer .reference a:hover {
+    text-decoration: underline;
 }
 
 footer .copyright {
@@ -153,4 +202,67 @@ footer .copyright {
     justify-content: center;
     width: 100%;
     margin-top: 1rem;
+}
+
+.formcontainer {
+    background-color: transparent;
+    padding: 20px 30px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    width: 100%;
+}
+
+.contact-form h2 {
+    margin-bottom: 20px;
+    color: #fca311;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    color: #fca311;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    background-color: #f9f9f9;
+}
+
+.form-group input:focus,
+.form-group textarea:focus {
+    border-color: #fca311;
+    background-color: #fff;
+    outline: none;
+}
+
+.submit-btn {
+    width: 100%;
+    padding: 10px 15px;
+    background-color: #fca311;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.submit-btn:hover {
+    background-color: #0056b3;
+}
+
+.reference {
+    padding: 20px 30px;
+}
+
+.social {
+    padding: 20px 50px;
 }
