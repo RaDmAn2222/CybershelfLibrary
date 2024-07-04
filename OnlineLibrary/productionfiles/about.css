@@ -12,6 +12,8 @@ body {
     background-color: #f4f4f4;
     margin: 0;
     padding: 0;
+    overflow-x: hidden; /* Prevent horizontal scrolling */
+
 }
 
 #wrapper {
@@ -58,7 +60,7 @@ body {
 }
 
 .maincontent {
-    margin: 10%;
+    margin: 100px 10%;
     padding: 5%;
     background-color: #adb5bd;
     border-radius: 15px;
@@ -67,8 +69,7 @@ body {
 .maincontent p {
     font-size: 120%;
     color: black;
-    text-align: justify;
-    text-justify: inter-word;
+    
 }
 
 footer {

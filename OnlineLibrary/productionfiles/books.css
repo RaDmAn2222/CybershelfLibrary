@@ -12,6 +12,7 @@ body {
     background-color: #f4f4f4;
     margin: 0;
     padding: 0;
+    overflow-x: hidden; /* Prevent horizontal scrolling */
 }
 
 #wrapper {
@@ -63,16 +64,16 @@ body {
 }
 
 .toph {
-    margin-top: 6%;
+    margin-top: 60px;
     margin-left: 13%;
-    font-size: 120%;
+    font-size: 100%;
 }
 
 .maindiv {
     background-color: #fca311;
-    border-radius: 80px;
-    margin: 1% 12% 5% 12%;
-    width: fit-content;
+    border-radius: 50px;
+    margin: 2% 10%;
+    width: 80%;
 }
 
 .tiles {
@@ -86,7 +87,8 @@ body {
 
 .tiles article {
     position: relative;
-    width: 500px; /* Adjust width to fit image and text horizontally */
+    width: 80%; /* Adjust width to fit image and text horizontally */
+    max-width: 570px;
     margin: 10px;
     padding: 20px;
     background: white; /* White background for each tile */
@@ -99,9 +101,10 @@ body {
 
 .tiles article .image {
     flex-shrink: 0; /* Prevent image from shrinking */
-    width: 250px; /* Adjust width for the image */
-    height: 360px; /* Increased height for the image */
-    margin-right: 30px; /* More space between image and text */
+    width: 50%; /* Adjust width for the image */
+    height: 100%; /* Increased height for the image */
+    margin-left: 0.05%;
+    margin-right: 3%; /* More space between image and text */
 }
 
 .tiles article img {
@@ -115,19 +118,20 @@ body {
 .tiles article .book-info {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: left;
     color: #000;
+    margin: 3px;
 }
 
 .tiles article .book-title {
     font-weight: bold;
-    font-size: 20px; /* Adjust font size as needed */
+    font-size: 1.25em; /* Adjust font size as needed */
     margin-bottom: 10px; /* More space below the title */
 }
 
 .tiles article .book-author {
     color: #555; /* Slightly muted color for the author */
-    font-size: 18px; /* Adjust font size as needed */
+    font-size: 1.125em; /* Adjust font size as needed */
 }
 
 .tiles article:hover img {

@@ -113,7 +113,7 @@ body {
 
 .box {
     background-color: #fca311;
-    width: 25%;
+    width: 40%;
     margin: 30px;
     padding: 20px;
     border: 1px solid #ccc;
@@ -124,6 +124,7 @@ body {
     border-radius: 10px;
     text-align: center;
     transition: transform 0.3s ease; /* Smooth scaling */
+    max-width: 500px;
 }
 
 .box img {
