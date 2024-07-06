@@ -12,7 +12,8 @@
         "fields": {
             "title": "Harry Potter and the Philosopher's Stone",
             "author": 1,
-            "image_url": "images/Harry Potter and the Philosopher Stone.jpg"
+            "image_url": "https://m.media-amazon.com/images/I/91ocU8970hL._AC_UF1000,1000_QL80_.jpg",
+            "pdf_url": "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://docenti.unimc.it/antonella.pascali/teaching/2018/19055/files/ultima-lezione/harry-potter-and-the-philosophers-stone&ved=2ahUKEwjqlNiPmYiHAxU7OTQIHRItDMkQFnoECA8QAQ&usg=AOvVaw353oCBoMAeUgfbNHmJheKn"
         }
     },
     {
@@ -28,8 +29,8 @@
         "fields": {
             "title": "1984",
             "author": 2,
-            "image_url": "images/1984.jpg"
-
+            "image_url": "https://cdn.kobo.com/book-images/c9472126-7f96-402d-ba57-5ba4c0f4b238/353/569/90/False/nineteen-eighty-four-1984-george.jpg",
+            "pdf_url": "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://rauterberg.employee.id.tue.nl/lecturenotes/DDM110%2520CAS/Orwell-1949%25201984.pdf&ved=2ahUKEwj76r-YnoiHAxV14ckDHdjKBQYQFnoECEQQAQ&usg=AOvVaw1XxvrAT00LIqoLKRQWhGjF"
         }
     },
     {
@@ -45,8 +46,8 @@
         "fields": {
             "title": "The Hobbit",
             "author": 3,
-            "image_url": "images/The Hobbit.jpg"
-
+            "image_url": "https://m.media-amazon.com/images/I/712cDO7d73L._AC_UF1000,1000_QL80_.jpg",
+            "pdf_url": "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://rsd2-alert-durden-reading-room.weebly.com/uploads/6/7/1/6/6716949/the_hobbit_tolkien.pdf&ved=2ahUKEwjIorydnoiHAxXSBdAFHRc_BOcQFnoECBgQAQ&usg=AOvVaw0xAA08zAzSk7muCNwq5yQs"
         }
     },
     {
@@ -62,8 +63,8 @@
         "fields": {
             "title": "The Great Gatsby",
             "author": 4,
-            "image_url": "images/The Great Gatsby.jpg"
-
+            "image_url": "https://m.media-amazon.com/images/I/81QuEGw8VPL._AC_UF1000,1000_QL80_.jpg",
+            "pdf_url": "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://www.wsfcs.k12.nc.us/cms/lib/NC01001395/Centricity/Domain/7935/Gatsby_PDF_FullText.pdf&ved=2ahUKEwjAqtTjnoiHAxUy48kDHS5NBZwQFnoECEUQAQ&usg=AOvVaw3SNs6813SJzhqvt34FNR0F"
         }
     },
     {
@@ -79,8 +80,8 @@
         "fields": {
             "title": "To Kill a Mockingbird",
             "author": 5,
-            "image_url": "images/To Kill a Mockingbird.jpg"
-
+            "image_url": "https://cdn.britannica.com/21/182021-050-666DB6B1/book-cover-To-Kill-a-Mockingbird-many-1961.jpg",
+            "pdf_url": "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://www.raio.org/TKMFullText.pdf&ved=2ahUKEwj80MKvn4iHAxWByMkDHfUwBaAQFnoECBoQAQ&usg=AOvVaw07ySkWzQFNATyqjVLBpzKD"
         }
     },
     {
@@ -96,8 +97,8 @@
         "fields": {
             "title": "Pride and Prejudice",
             "author": 6,
-            "image_url": "images/Pride and Prejudice.jpg"
-
+            "image_url": "https://m.media-amazon.com/images/I/81NLDvyAHrL._AC_UF1000,1000_QL80_.jpg",
+            "pdf_url": "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://www.gutenberg.org/files/1342/old/pandp12p.pdf&ved=2ahUKEwiOq7LJn4iHAxWV4MkDHQl7BmwQFnoECEsQAQ&usg=AOvVaw2eN0VKzZx5DajpuW5_6hDo"
         }
     },
     {
@@ -113,8 +114,8 @@
         "fields": {
             "title": "Adventures of Huckleberry Finn",
             "author": 7,
-            "image_url": "images/Adventures of Huckleberry Finn.jpg"
-
+            "image_url": "https://m.media-amazon.com/images/I/91sBZnKzEfL._AC_UF1000,1000_QL80_.jpg",
+            "pdf_url": "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://contentserver.adobe.com/store/books/HuckFinn.pdf&ved=2ahUKEwjJ1o_dn4iHAxVoM9AFHS4oDTIQFnoECEcQAQ&usg=AOvVaw0p8izTaz_skB2ususgET_q"
         }
     },
     {
@@ -130,8 +131,8 @@
         "fields": {
             "title": "The Old Man and the Sea",
             "author": 8,
-            "image_url": "images/The Old Man and the Sea.jpg"
-
+            "image_url": "https://m.media-amazon.com/images/I/71RXc0OoEwL._AC_UF1000,1000_QL80_.jpg",
+            "pdf_url": "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://www.arvindguptatoys.com/arvindgupta/oldmansea.pdf&ved=2ahUKEwjUmPffn4iHAxXuHdAFHcX2AtUQFnoECEsQAQ&usg=AOvVaw3bIpGvXFw--eSNFBt1_Ktv"
         }
     },
     {
@@ -147,8 +148,8 @@
         "fields": {
             "title": "Frankenstein",
             "author": 9,
-            "image_url": "images/Frankenstein.jpg"
-
+            "image_url": "https://m.media-amazon.com/images/I/81z7E0uWdtL._AC_UF1000,1000_QL80_.jpg",
+            "pdf_url": "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://rauterberg.employee.id.tue.nl/lecturenotes/DDM110%2520CAS/Shelley-1818%2520Frankenstein.pdf&ved=2ahUKEwiN3JT_n4iHAxW9G9AFHTC5ASgQFnoECE0QAQ&usg=AOvVaw07mCeBpmyagdn_Y0Jsmgq9"
         }
     },
     {
@@ -164,8 +165,8 @@
         "fields": {
             "title": "A Tale of Two Cities",
             "author": 10,
-            "image_url": "images/A Tale of Two Cities.jpg"
-
+            "image_url": "https://m.media-amazon.com/images/I/91C0MECqJ+L._AC_UF1000,1000_QL80_.jpg",
+            "pdf_url": "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://www.gutenberg.org/files/98/old/2city12p.pdf&ved=2ahUKEwj0mJmPoIiHAxUrLtAFHf8lC6UQFnoECEUQAQ&usg=AOvVaw3pz11kLZmT0yR4C2zTwTVb"
         }
     },
     {
@@ -181,8 +182,8 @@
         "fields": {
             "title": "War and Peace",
             "author": 11,
-            "image_url": "images/War and Peace.jpg"
-
+            "image_url": "https://m.media-amazon.com/images/I/71wXZB-VtBL._AC_UF1000,1000_QL80_.jpg",
+            "pdf_url": "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=http://janus.lib.cam.ac.uk/repository/bitstream/1810/191394/1/LeoTolstoy-WarAndPeace.pdf&ved=2ahUKEwiYo9WkoIiHAxX63ekDHd9eAakQFnoECBUQAQ&usg=AOvVaw3US3VSwE4bl2M7noPIsPL7"
         }
     },
     {
@@ -198,8 +199,8 @@
         "fields": {
             "title": "Moby-Dick",
             "author": 12,
-            "image_url": "images/Moby-Dick.jpg"
-
+            "image_url": "https://m.media-amazon.com/images/I/81R91ODA9DL._AC_UF1000,1000_QL80_.jpg",
+            "pdf_url": "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://www.gutenberg.org/files/2701/2701-h/2701-h.htm&ved=2ahUKEwj0mciDpIiHAxW9lN4KHXNbCYoQFnoECBkQAQ&usg=AOvVaw1c1y7IaVw8Eio6Jbzh5GQ1"
         }
     },
     {
@@ -215,8 +216,8 @@
         "fields": {
             "title": "Don Quixote",
             "author": 13,
-            "image_url": "images/Don Quixote.jpg"
-
+            "image_url": "https://m.media-amazon.com/images/I/71mbJoazlCL._AC_UF1000,1000_QL80_.jpg",
+            "pdf_url": "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://www.gutenberg.org/files/996/996-h/996-h.htm&ved=2ahUKEwj3hL2fpIiHAxX8rJ4KHZBcBKkQFnoECCgQAQ&usg=AOvVaw2zlsWkZ-BchKv5Y9XzZuoL"
         }
     },
     {
@@ -232,8 +233,8 @@
         "fields": {
             "title": "The Odyssey",
             "author": 14,
-            "image_url": "images/The Odyssey.jpg"
-
+            "image_url": "https://m.media-amazon.com/images/I/A1JR2oK-orL._AC_UF1000,1000_QL80_.jpg",
+            "pdf_url": "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://www.gutenberg.org/files/1727/1727-h/1727-h.htm&ved=2ahUKEwioiN65pIiHAxVzqtkKHYMxBHsQFnoECEYQAQ&usg=AOvVaw3dDITrBpwS8T2MAlLf8y8X"
         }
     },
     {
@@ -249,8 +250,8 @@
         "fields": {
             "title": "Hamlet",
             "author": 15,
-            "image_url": "images/Hamlet.jpg"
-
+            "image_url": "https://cdn.kobo.com/book-images/695eb39e-9405-4c4b-8267-302344f0f5f7/1200/1200/False/hamlet-15.jpg",
+            "pdf_url": "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://www.gutenberg.org/files/1524/1524-h/1524-h.htm&ved=2ahUKEwibgN6VpIiHAxUI5eQKHVc9A08QFnoECEoQAQ&usg=AOvVaw3f0bh6np6Rf2tSj9Y0dfal"
         }
     },
     {
@@ -266,8 +267,8 @@
         "fields": {
             "title": "Crime and Punishment",
             "author": 16,
-            "image_url": "images/1984.jpg"
-
+            "image_url": "https://m.media-amazon.com/images/I/71O2XIytdqL._AC_UF1000,1000_QL80_.jpg",
+            "pdf_url": "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=http://giove.isti.cnr.it/demo/eread/Libri/angry/Crime.pdf&ved=2ahUKEwi8wpzaoYiHAxVF5MkDHR2nCUkQFnoECEsQAQ&usg=AOvVaw0c4QtWrCaOqR_KC9n1Hb8V"
         }
     },
     {
@@ -283,8 +284,8 @@
         "fields": {
             "title": "The Catcher in the Rye",
             "author": 17,
-            "image_url": "images/The Catcher in the Rye.jpg"
-
+            "image_url": "https://m.media-amazon.com/images/I/8125BDk3l9L._AC_UF1000,1000_QL80_.jpg",
+            "pdf_url": "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://simontechnology.org/ourpages/auto/2013/1/23/53406450/Catcher%2520in%2520the%2520Rye%2520Text.pdf&ved=2ahUKEwiNsLrroYiHAxVPD9AFHYt4D7wQFnoECEsQAQ&usg=AOvVaw2KY_n5kUeul3CbYgql2GeH"
         }
     },
     {
@@ -300,8 +301,8 @@
         "fields": {
             "title": "One Hundred Years of Solitude",
             "author": 18,
-            "image_url": "images/One Hundred Years of Solitude.jpg"
-
+            "image_url": "https://m.media-amazon.com/images/I/81MI6+TpYkL._AC_UF1000,1000_QL80_.jpg",
+            "pdf_url": "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=http://www.sxcsrannalibrary.co.in/sites/default/files/ONE%2520HUNDRED%2520YEARS%2520OF%2520SOLITUDE-MARQUEZ.pdf&ved=2ahUKEwj13pL7oYiHAxUsLtAFHYt2CTQQFnoECEUQAQ&usg=AOvVaw0xXLdqmY45Jd7dE88qves9"
         }
     },
     {
@@ -317,8 +318,8 @@
         "fields": {
             "title": "Ulysses",
             "author": 19,
-            "image_url": "images/Ulysses.jpg"
-
+            "image_url": "https://m.media-amazon.com/images/I/41Rb-Kz6v1L._AC_UF1000,1000_QL80_.jpg",
+            "pdf_url": "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://web.itu.edu.tr/inceogl4/modernism/Ulysses.pdf&ved=2ahUKEwie68aMooiHAxXo6ckDHf2gA6sQFnoECEkQAQ&usg=AOvVaw37Vrem2xhtpmZwupo27U21"
         }
     },
     {
@@ -334,8 +335,8 @@
         "fields": {
             "title": "Wuthering Heights",
             "author": 20,
-            "image_url": "images/Wuthering Heights.jpg"
-
+            "image_url": "https://m.media-amazon.com/images/I/81T34Sem-tL._AC_UF1000,1000_QL80_.jpg",
+            "pdf_url": "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://www.ucm.es/data/cont/media/www/pag-87605/Wuthering%2520Heights.pdf&ved=2ahUKEwi0qO3Uo4iHAxWwmJ4KHRSkAzkQFnoECEcQAQ&usg=AOvVaw0Nqyf4UuJjPQsOWYXeTqKI"
         }
     },
     {
@@ -351,8 +352,8 @@
         "fields": {
             "title": "Twenty Thousand Leagues Under the Sea",
             "author": 21,
-            "image_url": "images/Twenty Thousand Leagues Under the Sea.jpg"
-
+            "image_url": "https://m.media-amazon.com/images/I/913ii-IVEXL._AC_UF1000,1000_QL80_.jpg",
+            "pdf_url": "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=http://www.umnet.com/ebook/3229-20000_Leagues_Under_the_Sea.pdf&ved=2ahUKEwiBk6rmo4iHAxVsjKQKHfQcBm0QFnoECC8QAQ&usg=AOvVaw3eA7R4aMYSBNwukazZCwIh"
         }
     },
     {
@@ -368,8 +369,8 @@
         "fields": {
             "title": "The Metamorphosis",
             "author": 22,
-            "image_url": "images/The Metamorphosis.jpg"
-
+            "image_url": "https://m.media-amazon.com/images/I/41GWXwbGuGL.jpg",
+            "pdf_url": "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=http://www.pdfbooks.co.za/files/The_Metamorphosis_Franz_Kafka.pdf&ved=2ahUKEwiwvoaio4iHAxXoi6gKHTuQD84QFnoECBUQAQ&usg=AOvVaw3e6Gm-M3Tk5X7UOQ7bjw2y"
         }
     },
     {
@@ -385,8 +386,8 @@
         "fields": {
             "title": "Les Miserables",
             "author": 23,
-            "image_url": "images/Les Miserables.jpg"
-
+            "image_url": "https://m.media-amazon.com/images/I/914TZ754wAL._AC_UF1000,1000_QL80_.jpg",
+            "pdf_url": "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=http://gutenberg.org/ebooks/135&ved=2ahUKEwiM0ujio4iHAxXJxuYKHdKzA7wQFnoECEkQAQ&usg=AOvVaw3NWrOnbQ3to5IyNLCWZDkt"
         }
     },
     {
@@ -402,8 +403,8 @@
         "fields": {
             "title": "Little Women",
             "author": 24,
-            "image_url": "images/Little Women.jpg"
-
+            "image_url": "https://dynamic.indigoimages.ca/v1/books/books/0147514010/1.jpg?width=810&maxHeight=810&quality=85",
+            "pdf_url": "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=http://www.bibliomania.com/0/0/1/1097/frameset.html&ved=2ahUKEwi9g7jxo4iHAxVn5uYKHQmHCu8QFnoECBYQAQ&usg=AOvVaw1fHDZTJXn6ik0zSyOKehZf"
         }
     },
     {
@@ -419,8 +420,1623 @@
         "fields": {
             "title": "Jane Eyre",
             "author": 25,
-            "image_url": "images/Jane Eyre.jpg"
-
+            "image_url": "https://m.media-amazon.com/images/I/81pwJjgcwwL._AC_UF1000,1000_QL80_.jpg",
+            "pdf_url": "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=http://www.fullbooks.com/Jane-Eyre8.html&ved=2ahUKEwj_-Jrzo4iHAxW5xt8KHZq9Bi0QFnoECCsQAQ&usg=AOvVaw2JWcS3Av2FRMl-rnkw3iVn"
+        }
+    },
+    {
+        "model": "books.author",
+        "pk": 26,
+        "fields": {
+            "name": "Aldous Huxley"
+        }
+    },
+    {
+        "model": "books.book",
+        "pk": 26,
+        "fields": {
+            "title": "Brave New World",
+            "author": 26,
+            "image_url": "https://m.media-amazon.com/images/I/81zE42gT3xL._AC_UF1000,1000_QL80_.jpg",
+            "pdf_url": "https://www.plato-philosophy.org/wp-content/uploads/2016/05/BraveNewWorld-1.pdf"
+        }
+    },
+    {
+        "model": "books.author",
+        "pk": 27,
+        "fields": {
+            "name": "John Williams"
+        }
+    },
+    {
+        "model": "books.book",
+        "pk": 27,
+        "fields": {
+            "title": "Stoner",
+            "author": 27,
+            "image_url": "https://fsi9-prod.s3.us-west-1.amazonaws.com/s3fs-public/styles/1200x630/public/kathryn_stoner_1_2022_v2.jpg?itok=s0pfXlhk",
+            "pdf_url": "https://epdf.pub/stoner.html"
+        }
+    },
+    {
+        "model": "books.author",
+        "pk": 28,
+        "fields": {
+            "name": "H.G. Wells"
+        }
+    },
+    {
+        "model": "books.book",
+        "pk": 28,
+        "fields": {
+            "title": "The War of the Worlds",
+            "author": 28,
+            "image_url": "https://m.media-amazon.com/images/M/MV5BODU4ZWMwNWQtNGViNy00ZWU0LWJjMDQtNGQ4ZTcxN2ZjZDk5XkEyXkFqcGdeQXVyNTE1NjY5Mg@@._V1_FMjpg_UX1000_.jpg",
+            "pdf_url": "https://www.planetpublish.com/wp-content/uploads/2011/11/The_War_of_the_Worlds_NT.pdf"
+        }
+    },
+    {
+        "model": "books.author",
+        "pk": 29,
+        "fields": {
+            "name": "Oscar Wilde"
+        }
+    },
+    {
+        "model": "books.book",
+        "pk": 29,
+        "fields": {
+            "title": "The Picture of Dorian Gray",
+            "author": 29,
+            "image_url": "https://m.media-amazon.com/images/M/MV5BNmFiY2RmOGQtYmU4OC00MzI2LWJjMmMtOTViMDY1ZjE2N2ViXkEyXkFqcGdeQXVyODcyNDkyMzY@._V1_.jpg",
+            "pdf_url": "https://archive.org/download/pictureofdoriang00wildiala/pictureofdoriang00wildiala.pdf"
+        }
+    },
+    {
+        "model": "books.author",
+        "pk": 30,
+        "fields": {
+            "name": "Edgar Allan Poe"
+        }
+    },
+    {
+        "model": "books.book",
+        "pk": 30,
+        "fields": {
+            "title": "The Raven",
+            "author": 30,
+            "image_url": "https://assets2.titleleaf.com/lerner/product/spread/xl_9781467746151_int.jpg",
+            "pdf_url": "https://www.ibiblio.org/ebooks/Poe/Raven.pdf"
+        }
+    },
+    {
+        "model": "books.author",
+        "pk": 31,
+        "fields": {
+            "name": "Arthur Conan Doyle"
+        }
+    },
+    {
+        "model": "books.book",
+        "pk": 31,
+        "fields": {
+            "title": "The Hound of the Baskervilles",
+            "author": 31,
+            "image_url": "https://upload.wikimedia.org/wikipedia/commons/3/3b/Cover_%28Hound_of_Baskervilles%2C_1902%29.jpg",
+            "pdf_url": "https://sherlock-holm.es/stories/pdf/a4/1-sided/houn.pdf"
+        }
+    },
+    {
+        "model": "books.author",
+        "pk": 32,
+        "fields": {
+            "name": "Dr. Seuss"
+        }
+    },
+    {
+        "model": "books.book",
+        "pk": 32,
+        "fields": {
+            "title": "The Lorax",
+            "author": 32,
+            "image_url": "https://m.media-amazon.com/images/M/MV5BMTU1MTAwMjk1NF5BMl5BanBnXkFtZTcwMDI5NDc4Ng@@._V1_.jpg",
+            "pdf_url": "https://yale.learningu.org/download/91736886-e31e-47c0-8a3b-f1c1843a6f7c/H3146_The%20Lorax_Storybook.pdf"
+        }
+    },
+    {
+        "model": "books.author",
+        "pk": 33,
+        "fields": {
+            "name": "Gabriel Garc\u00c3\u00ada M\u00c3\u00a1rquez"
+        }
+    },
+    {
+        "model": "books.book",
+        "pk": 33,
+        "fields": {
+            "title": "Love in the Time of Cholera",
+            "author": 33,
+            "image_url": "https://m.media-amazon.com/images/I/61OBwknuKsL._AC_UF1000,1000_QL80_.jpg",
+            "pdf_url": "https://giove.isti.cnr.it/demo/eread/Libri/sad/LoveInTheTimeOfCholera.pdf"
+        }
+    },
+    {
+        "model": "books.author",
+        "pk": 34,
+        "fields": {
+            "name": "Nathaniel Hawthorne"
+        }
+    },
+    {
+        "model": "books.book",
+        "pk": 34,
+        "fields": {
+            "title": "The Scarlet Letter",
+            "author": 34,
+            "image_url": "https://m.media-amazon.com/images/I/61iylEmE5kL._AC_UF1000,1000_QL80_.jpg",
+            "pdf_url": "https://www.planetpublish.com/wp-content/uploads/2011/11/The_Scarlet_Letter_T.pdf"
+        }
+    },
+    {
+        "model": "books.author",
+        "pk": 35,
+        "fields": {
+            "name": "Bram Stoker"
+        }
+    },
+    {
+        "model": "books.book",
+        "pk": 35,
+        "fields": {
+            "title": "Dracula",
+            "author": 35,
+            "image_url": "https://i.ytimg.com/vi/wcQOkvc9JTM/maxresdefault.jpg",
+            "pdf_url": "https://www.bramstoker.org/pdf/novels/05dracula.pdf"
+        }
+    },
+    {
+        "model": "books.author",
+        "pk": 36,
+        "fields": {
+            "name": "Jules Verne"
+        }
+    },
+    {
+        "model": "books.book",
+        "pk": 36,
+        "fields": {
+            "title": "Journey to the Center of the Earth",
+            "author": 36,
+            "image_url": "https://m.media-amazon.com/images/M/MV5BMTk1MzY1MzU1MF5BMl5BanBnXkFtZTcwOTQ2NjM3MQ@@._V1_FMjpg_UX1000_.jpg",
+            "pdf_url": "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://archive.org/download/cu31924090934815/cu31924090934815.pdf&ved=2ahUKEwj7q7rE1JKHAxUlFlkFHbPcChMQFnoECEcQAQ&usg=AOvVaw3MUJ1ibP8eIbEqiItq4Jdhhttps://www.noor-book.com/en/ebook-The-call-of-Cthulhu-pdf"
+        }
+    },
+    {
+        "model": "books.author",
+        "pk": 37,
+        "fields": {
+            "name": "Lewis Carroll"
+        }
+    },
+    {
+        "model": "books.book",
+        "pk": 37,
+        "fields": {
+            "title": "Alice's Adventures in Wonderland",
+            "author": 37,
+            "image_url": "https://m.media-amazon.com/images/I/71su1O1yFJL._AC_UF1000,1000_QL80_.jpg",
+            "pdf_url": "https://www.adobe.com/be_en/active-use/pdf/Alice_in_Wonderland.pdf"
+        }
+    },
+    {
+        "model": "books.author",
+        "pk": 38,
+        "fields": {
+            "name": "H.P. Lovecraft"
+        }
+    },
+    {
+        "model": "books.book",
+        "pk": 38,
+        "fields": {
+            "title": "The Call of Cthulhu",
+            "author": 38,
+            "image_url": "https://m.media-amazon.com/images/I/619K0PYMh-L._AC_UF1000,1000_QL80_.jpg",
+            "pdf_url": "https://www.noor-book.com/en/ebook-The-call-of-Cthulhu-pdf"
+        }
+    },
+    {
+        "model": "books.author",
+        "pk": 39,
+        "fields": {
+            "name": "Samuel R. Delany"
+        }
+    },
+    {
+        "model": "books.book",
+        "pk": 39,
+        "fields": {
+            "title": "The Motion of Light in Water",
+            "author": 39,
+            "image_url": "https://upload.wikimedia.org/wikipedia/en/thumb/3/35/Motion_of_lght_in_water.jpg/220px-Motion_of_lght_in_water.jpg",
+            "pdf_url": "https://www.perlego.com/book/2387006/the-motion-of-light-in-water-sex-and-science-fiction-writing-in-the-east-village-pdf"
+        }
+    },
+    {
+        "model": "books.author",
+        "pk": 40,
+        "fields": {
+            "name": "D.H. Lawrence"
+        }
+    },
+    {
+        "model": "books.book",
+        "pk": 40,
+        "fields": {
+            "title": "Sons and Lovers",
+            "author": 40,
+            "image_url": "https://images.penguinrandomhouse.com/cover/9780451530004",
+            "pdf_url": "https://www.planetpublish.com/wp-content/uploads/2011/11/Sons_and_Lovers_NT.pdf"
+        }
+    },
+    {
+        "model": "books.author",
+        "pk": 41,
+        "fields": {
+            "name": "Thomas Hardy"
+        }
+    },
+    {
+        "model": "books.book",
+        "pk": 41,
+        "fields": {
+            "title": "Tess of the d'Urbervilles",
+            "author": 41,
+            "image_url": "https://m.media-amazon.com/images/M/MV5BZDE1Y2FlZWItMDg4Ni00NDUzLThiYmYtOGE2NmY3YmJkYTJmXkEyXkFqcGdeQXVyNzQ5MzY0NjM@._V1_.jpg",
+            "pdf_url": "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=http://triggs.djvu.org/djvu-editions.com/HARDY/TESS/Download.pdf&ved=2ahUKEwjBsduY1pKHAxXOGFkFHQAyCkQQFnoECEoQAQ&usg=AOvVaw0cSC1BnvdOTjVgd8LXNLXnhttps://antilogicalism.com/wp-content/uploads/2018/04/slaughterhouse-five.pdf"
+        }
+    },
+    {
+        "model": "books.author",
+        "pk": 42,
+        "fields": {
+            "name": "Kurt Vonnegut"
+        }
+    },
+    {
+        "model": "books.book",
+        "pk": 42,
+        "fields": {
+            "title": "Slaughterhouse-Five",
+            "author": 42,
+            "image_url": "https://m.media-amazon.com/images/I/51gi6rxS6OL._AC_UF1000,1000_QL80_.jpg",
+            "pdf_url": "https://antilogicalism.com/wp-content/uploads/2018/04/slaughterhouse-five.pdf"
+        }
+    },
+    {
+        "model": "books.author",
+        "pk": 43,
+        "fields": {
+            "name": "V\u00c3\u00a1clav Havel"
+        }
+    },
+    {
+        "model": "books.book",
+        "pk": 43,
+        "fields": {
+            "title": "The Power of the Powerless",
+            "author": 43,
+            "image_url": "https://m.media-amazon.com/images/I/81vkT98XEwL._AC_UF1000,1000_QL80_.jpg",
+            "pdf_url": "https://www.nonviolent-conflict.org/wp-content/uploads/1979/01/the-power-of-the-powerless.pdf"
+        }
+    },
+    {
+        "model": "books.author",
+        "pk": 44,
+        "fields": {
+            "name": "Haruki Murakami"
+        }
+    },
+    {
+        "model": "books.book",
+        "pk": 44,
+        "fields": {
+            "title": "Norwegian Wood",
+            "author": 44,
+            "image_url": "https://m.media-amazon.com/images/I/81vqEbKp8EL._AC_UF1000,1000_QL80_.jpg",
+            "pdf_url": "https://www.macobo.com/essays/epdf/Haruki%20Murakami%20-%20Norwegian%20Wood.pdf"
+        }
+    },
+    {
+        "model": "books.author",
+        "pk": 45,
+        "fields": {
+            "name": "Margaret Atwood"
+        }
+    },
+    {
+        "model": "books.book",
+        "pk": 45,
+        "fields": {
+            "title": "The Handmaid's Tale",
+            "author": 45,
+            "image_url": "https://m.media-amazon.com/images/I/61su39k8NUL._AC_UF1000,1000_QL80_.jpg",
+            "pdf_url": "https://archive.org/details/the-handmaids-tale_pdf"
+        }
+    },
+    {
+        "model": "books.author",
+        "pk": 46,
+        "fields": {
+            "name": "Virginia Woolf"
+        }
+    },
+    {
+        "model": "books.book",
+        "pk": 46,
+        "fields": {
+            "title": "To the Lighthouse",
+            "author": 46,
+            "image_url": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1639106809i/59716.jpg",
+            "pdf_url": "https://opentextbc.ca/englishliterature/wp-content/uploads/sites/27/2014/10/To-the-Lighthouse-Etext-Edited.pdf"
+        }
+    },
+    {
+        "model": "books.author",
+        "pk": 47,
+        "fields": {
+            "name": "Marcel Proust"
+        }
+    },
+    {
+        "model": "books.book",
+        "pk": 47,
+        "fields": {
+            "title": "In Search of Lost Time",
+            "author": 47,
+            "image_url": "https://miro.medium.com/v2/resize:fit:2000/1*c0XdGSwwL3K22YRi2ERSxQ.jpeg",
+            "pdf_url": "https://antilogicalism.com/wp-content/uploads/2019/04/lost-time.pdf"
+        }
+    },
+    {
+        "model": "books.author",
+        "pk": 48,
+        "fields": {
+            "name": "John Steinbeck"
+        }
+    },
+    {
+        "model": "books.book",
+        "pk": 48,
+        "fields": {
+            "title": "Of Mice and Men",
+            "author": 48,
+            "image_url": "https://m.media-amazon.com/images/M/MV5BNGFhOGEyYjItNjNhYS00ZmE4LTgzNWQtZTc4NDI5OGNmMTdhXkEyXkFqcGdeQXVyMTUzMDUzNTI3._V1_.jpg",
+            "pdf_url": "https://giove.isti.cnr.it/demo/eread/Libri/sad/OfMiceAndMen.pdf"
+        }
+    },
+    {
+        "model": "books.author",
+        "pk": 49,
+        "fields": {
+            "name": "Joseph Conrad"
+        }
+    },
+    {
+        "model": "books.book",
+        "pk": 49,
+        "fields": {
+            "title": "Heart of Darkness",
+            "author": 49,
+            "image_url": "https://m.media-amazon.com/images/I/71jDQ-T5e0L._AC_UF1000,1000_QL80_.jpg",
+            "pdf_url": "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://etc.usf.edu/lit2go/pdf/passage/1688/heart-of-darkness-001-part-1.pdf&ved=2ahUKEwjLhq2w1pKHAxUwGlkFHfRZDiMQFnoECEAQAQ&usg=AOvVaw3eZ4aIPOy2ImuTDEJsjXT_https://cdnsm5-ss3.sharpschool.com/UserFiles/Servers/Server_4204286/Image/Grade9GT%20Cherry%20Orchard.pdf"
+        }
+    },
+    {
+        "model": "books.author",
+        "pk": 50,
+        "fields": {
+            "name": "Anton Chekhov"
+        }
+    },
+    {
+        "model": "books.book",
+        "pk": 50,
+        "fields": {
+            "title": "The Cherry Orchard",
+            "author": 50,
+            "image_url": "https://upload.wikimedia.org/wikipedia/commons/3/35/The_Cherry_Orchard_MAT.jpg",
+            "pdf_url": "https://cdnsm5-ss3.sharpschool.com/UserFiles/Servers/Server_4204286/Image/Grade9GT%20Cherry%20Orchard.pdf"
+        }
+    },
+    {
+        "model": "books.author",
+        "pk": 51,
+        "fields": {
+            "name": "John Milton"
+        }
+    },
+    {
+        "model": "books.book",
+        "pk": 51,
+        "fields": {
+            "title": "Paradise Lost",
+            "author": 51,
+            "image_url": "https://m.media-amazon.com/images/I/71L2399uhVL._AC_UF1000,1000_QL80_.jpg",
+            "pdf_url": "http://triggs.djvu.org/djvu-editions.com/MILTON/LOST/Download.pdf"
+        }
+    },
+    {
+        "model": "books.author",
+        "pk": 52,
+        "fields": {
+            "name": "Voltaire"
+        }
+    },
+    {
+        "model": "books.book",
+        "pk": 52,
+        "fields": {
+            "title": "Candide",
+            "author": 52,
+            "image_url": "https://m.media-amazon.com/images/I/61j3+Vjz0ZL._AC_UF1000,1000_QL80_.jpg",
+            "pdf_url": "http://www.esp.org/books/voltaire/candide.pdf"
+        }
+    },
+    {
+        "model": "books.author",
+        "pk": 53,
+        "fields": {
+            "name": "J.D. Salinger"
+        }
+    },
+    {
+        "model": "books.book",
+        "pk": 53,
+        "fields": {
+            "title": "Franny and Zooey",
+            "author": 53,
+            "image_url": "https://m.media-amazon.com/images/I/61oBAWnHYHL._AC_UF1000,1000_QL80_.jpg",
+            "pdf_url": "https://readinghourblog.files.wordpress.com/2018/07/jd-salingers-franny-and-zooey.pdf"
+        }
+    },
+    {
+        "model": "books.author",
+        "pk": 54,
+        "fields": {
+            "name": "John Bunyan"
+        }
+    },
+    {
+        "model": "books.book",
+        "pk": 54,
+        "fields": {
+            "title": "The Pilgrim's Progress",
+            "author": 54,
+            "image_url": "https://m.media-amazon.com/images/I/81GzPvas7sL._AC_UF1000,1000_QL80_.jpg",
+            "pdf_url": "https://www.desiringgod.org/books/the-pilgrims-progress.pdf"
+        }
+    },
+    {
+        "model": "books.author",
+        "pk": 55,
+        "fields": {
+            "name": "George Eliot"
+        }
+    },
+    {
+        "model": "books.book",
+        "pk": 55,
+        "fields": {
+            "title": "Middlemarch",
+            "author": 55,
+            "image_url": "https://images.penguinrandomhouse.com/cover/9780143107729",
+            "pdf_url": "https://gosafir.com/mag/wp-content/uploads/2019/12/George-Eliot-Middlemarch_-A-Study-of-Provincial-Life-Signet-Classics-Paperback-2003.pdf"
+        }
+    },
+    {
+        "model": "books.author",
+        "pk": 56,
+        "fields": {
+            "name": "Herman Hesse"
+        }
+    },
+    {
+        "model": "books.book",
+        "pk": 56,
+        "fields": {
+            "title": "Siddhartha",
+            "author": 56,
+            "image_url": "https://m.media-amazon.com/images/I/61urry+xagL._AC_UF1000,1000_QL80_.jpg",
+            "pdf_url": "https://philosophy.lander.edu/oriental/siddhartha-1.pdf"
+        }
+    },
+    {
+        "model": "books.author",
+        "pk": 57,
+        "fields": {
+            "name": "Barbara Kingsolver"
+        }
+    },
+    {
+        "model": "books.book",
+        "pk": 57,
+        "fields": {
+            "title": "The Poisonwood Bible",
+            "author": 57,
+            "image_url": "https://m.media-amazon.com/images/I/81mP3ZMdqoL._AC_UF1000,1000_QL80_.jpg",
+            "pdf_url": "https://columbia-club.org/documents/10184/76861049/The+Poisonwood+Bible+by+Barbara+Kingsolver.pdf/e0ce227a-e1cf-4c04-ac4e-5fff15294063"
+        }
+    },
+    {
+        "model": "books.author",
+        "pk": 58,
+        "fields": {
+            "name": "F. Scott Fitzgerald"
+        }
+    },
+    {
+        "model": "books.book",
+        "pk": 58,
+        "fields": {
+            "title": "Tender is the Night",
+            "author": 58,
+            "image_url": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1559763775i/46164.jpg",
+            "pdf_url": "https://almabooks.com/wp-content/uploads/2021/03/Tender-is-the-Night-Extract.pdf"
+        }
+    },
+    {
+        "model": "books.author",
+        "pk": 59,
+        "fields": {
+            "name": "Sylvia Plath"
+        }
+    },
+    {
+        "model": "books.book",
+        "pk": 59,
+        "fields": {
+            "title": "The Bell Jar",
+            "author": 59,
+            "image_url": "https://m.media-amazon.com/images/I/81wUVpREPSL._AC_UF1000,1000_QL80_.jpg",
+            "pdf_url": "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://openlibrary-repo.ecampusontario.ca/jspui/bitstream/123456789/1145/4/The-Bell-Jar-1645639688._print.pdf&ved=2ahUKEwjiounA1pKHAxVbMlkFHeaYCzkQFnoECEYQAQ&usg=AOvVaw2Ts0rrzT1ibnRuJGJJ4wM-https://books-library.net/files/books-library.online-12230134Co1W4.pdf"
+        }
+    },
+    {
+        "model": "books.author",
+        "pk": 60,
+        "fields": {
+            "name": "Ken Kesey"
+        }
+    },
+    {
+        "model": "books.book",
+        "pk": 60,
+        "fields": {
+            "title": "One Flew Over the Cuckoo's Nest",
+            "author": 60,
+            "image_url": "https://upload.wikimedia.org/wikipedia/en/2/26/One_Flew_Over_the_Cuckoo%27s_Nest_poster.jpg",
+            "pdf_url": "https://books-library.net/files/books-library.online-12230134Co1W4.pdf"
+        }
+    },
+    {
+        "model": "books.author",
+        "pk": 61,
+        "fields": {
+            "name": "Jack Kerouac"
+        }
+    },
+    {
+        "model": "books.book",
+        "pk": 61,
+        "fields": {
+            "title": "On the Road",
+            "author": 61,
+            "image_url": "https://m.media-amazon.com/images/I/A1pQA4NDIdL._AC_UF1000,1000_QL80_.jpg",
+            "pdf_url": "https://therustyquill.files.wordpress.com/2013/11/jack-kerouac-on-the-road.pdf"
+        }
+    },
+    {
+        "model": "books.author",
+        "pk": 62,
+        "fields": {
+            "name": "John Steinbeck"
+        }
+    },
+    {
+        "model": "books.book",
+        "pk": 62,
+        "fields": {
+            "title": "The Grapes of Wrath",
+            "author": 62,
+            "image_url": "https://upload.wikimedia.org/wikipedia/commons/c/c1/The_Grapes_of_Wrath_%281940_poster%29.jpg",
+            "pdf_url": "https://www.fadedpage.com/link.php?file=20220149-a5.pdf"
+        }
+    },
+    {
+        "model": "books.author",
+        "pk": 63,
+        "fields": {
+            "name": "Harper Lee"
+        }
+    },
+    {
+        "model": "books.book",
+        "pk": 63,
+        "fields": {
+            "title": "Go Set a Watchman",
+            "author": 63,
+            "image_url": "https://m.media-amazon.com/images/I/91YXvPqn5jL._AC_UF1000,1000_QL80_.jpg",
+            "pdf_url": "https://books-library.net/files/books-library.online-01111616Ec0S5.pdf"
+        }
+    },
+    {
+        "model": "books.author",
+        "pk": 64,
+        "fields": {
+            "name": "Isaac Asimov"
+        }
+    },
+    {
+        "model": "books.book",
+        "pk": 64,
+        "fields": {
+            "title": "Foundation",
+            "author": 64,
+            "image_url": "https://www.narscosmetics.com/on/demandware.static/-/Sites-itemmaster_NARS/default/dw633bba4b/2023/February/LRFoundation/NARS_SP23_AllureBeautySeal_PDPCrop_Soldier_LRF_Yukon_US_2000x2000.png",
+            "pdf_url": "https://s3.us-west-1.wasabisys.com/luminist/EB/A/Asimov%20-%20Foundation.pdf"
+        }
+    },
+    {
+        "model": "books.author",
+        "pk": 65,
+        "fields": {
+            "name": "Orson Scott Card"
+        }
+    },
+    {
+        "model": "books.book",
+        "pk": 65,
+        "fields": {
+            "title": "Ender's Game",
+            "author": 65,
+            "image_url": "https://m.media-amazon.com/images/I/81+IUsYtGTL._AC_UF1000,1000_QL80_.jpg",
+            "pdf_url": "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://resources.finalsite.net/images/v1563819368/rcsdms/zubpw0ly7e6g3rm1n3fk/EndersGame.pdf&ved=2ahUKEwirzL7Z1pKHAxXsFFkFHXV6AGsQFnoECBUQAQ&usg=AOvVaw2A8VeMuvHGlD-slaqsijanhttps://ia902702.us.archive.org/0/items/SpaceOdyssey_819/2001_A_Space_Odyssey_-_Arthur_C_Clarke.pdf"
+        }
+    },
+    {
+        "model": "books.author",
+        "pk": 66,
+        "fields": {
+            "name": "Arthur C. Clarke"
+        }
+    },
+    {
+        "model": "books.book",
+        "pk": 66,
+        "fields": {
+            "title": "2001: A Space Odyssey",
+            "author": 66,
+            "image_url": "https://m.media-amazon.com/images/M/MV5BMmNlYzRiNDctZWNhMi00MzI4LThkZTctMTUzMmZkMmFmNThmXkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_.jpg",
+            "pdf_url": "https://ia902702.us.archive.org/0/items/SpaceOdyssey_819/2001_A_Space_Odyssey_-_Arthur_C_Clarke.pdf"
+        }
+    },
+    {
+        "model": "books.author",
+        "pk": 67,
+        "fields": {
+            "name": "Douglas Adams"
+        }
+    },
+    {
+        "model": "books.book",
+        "pk": 67,
+        "fields": {
+            "title": "The Hitchhiker's Guide to the Galaxy",
+            "author": 67,
+            "image_url": "https://m.media-amazon.com/images/M/MV5BZmU5MGU4MjctNjA2OC00N2FhLWFhNWQtMzQyMGI2ZmQ0Y2YyL2ltYWdlXkEyXkFqcGdeQXVyNTAyODkwOQ@@._V1_.jpg",
+            "pdf_url": "https://www.deyeshigh.co.uk/downloads/literacy/world_book_day/the_hitchhiker_s_guide_to_the_galaxy.pdf"
+        }
+    },
+    {
+        "model": "books.author",
+        "pk": 68,
+        "fields": {
+            "name": "Philip K. Dick"
+        }
+    },
+    {
+        "model": "books.book",
+        "pk": 68,
+        "fields": {
+            "title": "Do Androids Dream of Electric Sheep?",
+            "author": 68,
+            "image_url": "https://upload.wikimedia.org/wikipedia/en/e/ee/DoAndroidsDream.png",
+            "pdf_url": "https://files.cercomp.ufg.br/weby/up/410/o/Phillip_K._Dick_-_Do_Androids_Dream_of_Electric_Sheep_c%C3%B3pia.pdf"
+        }
+    },
+    {
+        "model": "books.author",
+        "pk": 69,
+        "fields": {
+            "name": "Neal Stephenson"
+        }
+    },
+    {
+        "model": "books.book",
+        "pk": 69,
+        "fields": {
+            "title": "Snow Crash",
+            "author": 69,
+            "image_url": "https://m.media-amazon.com/images/I/81p4Y+0HzbL._AC_UF1000,1000_QL80_.jpg",
+            "pdf_url": "https://hell.pl/agnus/anglistyka/2211/Neal%20Stephenson%20-%20Snow%20Crash.pdf"
+        }
+    },
+    {
+        "model": "books.author",
+        "pk": 70,
+        "fields": {
+            "name": "William Gibson"
+        }
+    },
+    {
+        "model": "books.book",
+        "pk": 70,
+        "fields": {
+            "title": "Neuromancer",
+            "author": 70,
+            "image_url": "https://m.media-amazon.com/images/I/81m-rJnUdRL._AC_UF1000,1000_QL80_.jpg",
+            "pdf_url": "https://www.nothuman.net/images/files/discussion/1/0ed6dd58b519b04986adffca95500ec3.pdf"
+        }
+    },
+    {
+        "model": "books.author",
+        "pk": 71,
+        "fields": {
+            "name": "Ray Bradbury"
+        }
+    },
+    {
+        "model": "books.book",
+        "pk": 71,
+        "fields": {
+            "title": "Fahrenheit 451",
+            "author": 71,
+            "image_url": "https://m.media-amazon.com/images/I/61z7RDG3OIL._AC_UF1000,1000_QL80_.jpg",
+            "pdf_url": "https://jghsenglish.edublogs.org/files/2015/02/Fahrenheit-451.pdf"
+        }
+    },
+    {
+        "model": "books.author",
+        "pk": 72,
+        "fields": {
+            "name": "Daphne du Maurier"
+        }
+    },
+    {
+        "model": "books.book",
+        "pk": 72,
+        "fields": {
+            "title": "Rebecca",
+            "author": 72,
+            "image_url": "https://lookaside.instagram.com/seo/google_widget/crawler/?media_id=3281669574911005781",
+            "pdf_url": "https://gosafir.com/mag/wp-content/uploads/2019/12/3.-Daphne-Du-Maurier-Rebecca-by-Daphne-Du-Maurier.pdf"
+        }
+    },
+    {
+        "model": "books.author",
+        "pk": 73,
+        "fields": {
+            "name": "Christina Stead"
+        }
+    },
+    {
+        "model": "books.book",
+        "pk": 73,
+        "fields": {
+            "title": "The Man Who Loved Children",
+            "author": 73,
+            "image_url": "https://upload.wikimedia.org/wikipedia/en/6/61/SteadManChildren.jpg",
+            "pdf_url": "https://epdf.pub/the-man-who-loved-children.html"
+        }
+    },
+    {
+        "model": "books.author",
+        "pk": 74,
+        "fields": {
+            "name": "Ursula K. Le Guin"
+        }
+    },
+    {
+        "model": "books.book",
+        "pk": 74,
+        "fields": {
+            "title": "The Left Hand of Darkness",
+            "author": 74,
+            "image_url": "https://m.media-amazon.com/images/I/71XqE4caMNL._AC_UF1000,1000_QL80_.jpg",
+            "pdf_url": "https://www.mlook.mobi/files/month_1203/80e49eb29e78d387d11eb2927ebb8b0dff842941.pdf"
+        }
+    },
+    {
+        "model": "books.author",
+        "pk": 75,
+        "fields": {
+            "name": "Jack Womack"
+        }
+    },
+    {
+        "model": "books.book",
+        "pk": 75,
+        "fields": {
+            "title": "Random Acts of Senseless Violence",
+            "author": 75,
+            "image_url": "https://m.media-amazon.com/images/I/615hhNHmg8L._AC_UF1000,1000_QL80_.jpg",
+            "pdf_url": "https://gestao.formosa.go.gov.br/textbooks/scholarship/_pdfs/Random_Acts_Of_Kindness_And_Senseless_Acts_Of_Beauty.pdf"
+        }
+    },
+    {
+        "model": "books.author",
+        "pk": 76,
+        "fields": {
+            "name": "George R.R. Martin"
+        }
+    },
+    {
+        "model": "books.book",
+        "pk": 76,
+        "fields": {
+            "title": "A Game of Thrones",
+            "author": 76,
+            "image_url": "https://m.media-amazon.com/images/I/714ExofeKJL._AC_UF1000,1000_QL80_.jpg",
+            "pdf_url": "https://www.nothuman.net/images/files/discussion/1/e72f9f1f181a66887baa7270037c582e.pdf"
+        }
+    },
+    {
+        "model": "books.author",
+        "pk": 77,
+        "fields": {
+            "name": "Terry Pratchett"
+        }
+    },
+    {
+        "model": "books.book",
+        "pk": 77,
+        "fields": {
+            "title": "Good Omens",
+            "author": 77,
+            "image_url": "https://m.media-amazon.com/images/M/MV5BYzNhY2JkMTctZjM5Ny00OGIxLWJhOWMtMzYxYzllOTZhMTY4XkEyXkFqcGdeQXVyMjkwOTAyMDU@._V1_FMjpg_UX1000_.jpg",
+            "pdf_url": "http://hiis.isti.cnr.it/demo/eread/Libri/joy/Good.pdf"
+        }
+    },
+    {
+        "model": "books.author",
+        "pk": 78,
+        "fields": {
+            "name": "Neil Gaiman"
+        }
+    },
+    {
+        "model": "books.book",
+        "pk": 78,
+        "fields": {
+            "title": "American Gods",
+            "author": 78,
+            "image_url": "https://m.media-amazon.com/images/M/MV5BYTdhNGE2MGQtNzMxYi00ZTNlLWFkMzAtMDY3OGZiNjQxZWNlXkEyXkFqcGdeQXVyNDg4NjY5OTQ@._V1_FMjpg_UX1000_.jpg",
+            "pdf_url": "https://pdfcoffee.com/american-gods-pdf-free.html"
+        }
+    },
+    {
+        "model": "books.author",
+        "pk": 79,
+        "fields": {
+            "name": "Jules Verne"
+        }
+    },
+    {
+        "model": "books.book",
+        "pk": 79,
+        "fields": {
+            "title": "Around the World in Eighty Days",
+            "author": 79,
+            "image_url": "https://m.media-amazon.com/images/M/MV5BNjRhNjVlYTgtODZiOS00OTVhLWE4ZTItZjc3MTFiYWY1YjI5L2ltYWdlXkEyXkFqcGdeQXVyNjc1NTYyMjg@._V1_.jpg",
+            "pdf_url": "https://www.ibiblio.org/ebooks/Verne/Eighty_Days.pdf"
+        }
+    },
+    {
+        "model": "books.author",
+        "pk": 80,
+        "fields": {
+            "name": "Robert Louis Stevenson"
+        }
+    },
+    {
+        "model": "books.book",
+        "pk": 80,
+        "fields": {
+            "title": "Treasure Island",
+            "author": 80,
+            "image_url": "https://lumiere-a.akamaihd.net/v1/images/p_treasureisland_19904_4e7191e5.jpeg?region=0%2C0%2C540%2C810",
+            "pdf_url": "https://www1.udel.edu/LLL/language/deutsch/handouts/summer_2015/Schatzinsel_E.pdf"
+        }
+    },
+    {
+        "model": "books.author",
+        "pk": 81,
+        "fields": {
+            "name": "Alexandre Dumas"
+        }
+    },
+    {
+        "model": "books.book",
+        "pk": 81,
+        "fields": {
+            "title": "The Count of Monte Cristo",
+            "author": 81,
+            "image_url": "https://m.media-amazon.com/images/M/MV5BMDM0ZWRjZDgtZWI0MS00ZTIzLTg4MWYtZjU5MDEyMDU0ODBjXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_.jpg",
+            "pdf_url": "https://www.epedagogia.com.br/materialbibliotecaonine/797The-Count-of-Monte-Cristo.pdf"
+        }
+    },
+    {
+        "model": "books.author",
+        "pk": 82,
+        "fields": {
+            "name": "Gustave Flaubert"
+        }
+    },
+    {
+        "model": "books.book",
+        "pk": 82,
+        "fields": {
+            "title": "Madame Bovary",
+            "author": 82,
+            "image_url": "https://m.media-amazon.com/images/I/61Z9ebxYVvL._AC_UF1000,1000_QL80_.jpg",
+            "pdf_url": "https://www.forgottenbooks.com/en/download/MadameBovary_10071486.pdf"
+        }
+    },
+    {
+        "model": "books.author",
+        "pk": 83,
+        "fields": {
+            "name": "Shel Silverstein"
+        }
+    },
+    {
+        "model": "books.book",
+        "pk": 83,
+        "fields": {
+            "title": "The Giving Tree",
+            "author": 83,
+            "image_url": "https://m.media-amazon.com/images/I/71wiGMKadmL._AC_UF1000,1000_QL80_.jpg",
+            "pdf_url": "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://www.lynnjohnston.com/wp-content/uploads/2016/04/TheGivingTreePoem.pdf&ved=2ahUKEwj5x-rp1pKHAxXVEFkFHditA2IQFnoECBcQAQ&usg=AOvVaw2KCa1-198x7kfkh_-AfTmxhttps://www.fiction.us/forster/apassagetoindia.pdf"
+        }
+    },
+    {
+        "model": "books.author",
+        "pk": 84,
+        "fields": {
+            "name": "E.M. Forster"
+        }
+    },
+    {
+        "model": "books.book",
+        "pk": 84,
+        "fields": {
+            "title": "A Passage to India",
+            "author": 84,
+            "image_url": "https://upload.wikimedia.org/wikipedia/en/2/20/PassageToIndiaPoster.jpg",
+            "pdf_url": "https://www.fiction.us/forster/apassagetoindia.pdf"
+        }
+    },
+    {
+        "model": "books.author",
+        "pk": 85,
+        "fields": {
+            "name": "Leo Tolstoy"
+        }
+    },
+    {
+        "model": "books.book",
+        "pk": 85,
+        "fields": {
+            "title": "Anna Karenina",
+            "author": 85,
+            "image_url": "https://m.media-amazon.com/images/M/MV5BMTU0NDgxNDg0NV5BMl5BanBnXkFtZTcwMjE4MzkwOA@@._V1_.jpg",
+            "pdf_url": "http://triggs.djvu.org/djvu-editions.com/TOLSTOY/ANNA/Download.pdf"
+        }
+    },
+    {
+        "model": "books.author",
+        "pk": 86,
+        "fields": {
+            "name": "Herman Melville"
+        }
+    },
+    {
+        "model": "books.book",
+        "pk": 86,
+        "fields": {
+            "title": "Billy Budd",
+            "author": 86,
+            "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Billy_budd_poster.jpg/1200px-Billy_budd_poster.jpg",
+            "pdf_url": "https://mseffie.com/assignments/billy_budd/Billy%20Budd%20Text.pdf"
+        }
+    },
+    {
+        "model": "books.author",
+        "pk": 87,
+        "fields": {
+            "name": "Anthony Trollope"
+        }
+    },
+    {
+        "model": "books.book",
+        "pk": 87,
+        "fields": {
+            "title": "The Warden",
+            "author": 87,
+            "image_url": "https://mpd-biblio-covers.imgix.net/9781250815651.jpg",
+            "pdf_url": "https://www.noor-book.com/en/ebook-The-Warden-pdf"
+        }
+    },
+    {
+        "model": "books.author",
+        "pk": 88,
+        "fields": {
+            "name": "Arundhati Roy"
+        }
+    },
+    {
+        "model": "books.book",
+        "pk": 88,
+        "fields": {
+            "title": "The God of Small Things",
+            "author": 88,
+            "image_url": "https://m.media-amazon.com/images/I/61ACfrLK0EL._AC_UF1000,1000_QL80_.jpg",
+            "pdf_url": "https://theasrudiancenter.files.wordpress.com/2017/01/mp074_the-god-of-small-things-by-arundhati-roy.pdf"
+        }
+    },
+    {
+        "model": "books.author",
+        "pk": 89,
+        "fields": {
+            "name": "Edith Wharton"
+        }
+    },
+    {
+        "model": "books.book",
+        "pk": 89,
+        "fields": {
+            "title": "The Age of Innocence",
+            "author": 89,
+            "image_url": "https://m.media-amazon.com/images/M/MV5BMDhkN2FhYTktYWUwNy00NTE5LWJiYjYtMGNlODIyNDc5MWZhXkEyXkFqcGdeQXVyNTAyODkwOQ@@._V1_.jpg",
+            "pdf_url": "https://ieltsdaily.ir/static/downloads/AGE%20OF%20INNOCENCE.pdf"
+        }
+    },
+    {
+        "model": "books.author",
+        "pk": 90,
+        "fields": {
+            "name": "John Updike"
+        }
+    },
+    {
+        "model": "books.book",
+        "pk": 90,
+        "fields": {
+            "title": "Rabbit, Run",
+            "author": 90,
+            "image_url": "https://m.media-amazon.com/images/I/61tLhwxcsKL._AC_UF1000,1000_QL80_.jpg",
+            "pdf_url": "https://epdf.pub/rabbit-run88b0438896cfe0fd7b068d63378420ce80956.html"
+        }
+    },
+    {
+        "model": "books.author",
+        "pk": 91,
+        "fields": {
+            "name": "James Joyce"
+        }
+    },
+    {
+        "model": "books.book",
+        "pk": 91,
+        "fields": {
+            "title": "A Portrait of the Artist as a Young Man",
+            "author": 91,
+            "image_url": "https://m.media-amazon.com/images/I/71zYs2K8VpL._AC_UF1000,1000_QL80_.jpg",
+            "pdf_url": "https://gosafir.com/mag/books/a-portrait-of-the-artist-as-a-young-man.pdf"
+        }
+    },
+    {
+        "model": "books.author",
+        "pk": 92,
+        "fields": {
+            "name": "Stephen King"
+        }
+    },
+    {
+        "model": "books.book",
+        "pk": 92,
+        "fields": {
+            "title": "The Stand",
+            "author": 92,
+            "image_url": "https://upload.wikimedia.org/wikipedia/commons/5/52/The_Stand_%281978%29_front_cover%2C_first_edition.png",
+            "pdf_url": "https://archive.org/download/stephen-king_202206/Stephen%20King%20-%201991%20-%20The%20Stand.pdf"
+        }
+    },
+    {
+        "model": "books.author",
+        "pk": 93,
+        "fields": {
+            "name": "Henry James"
+        }
+    },
+    {
+        "model": "books.book",
+        "pk": 93,
+        "fields": {
+            "title": "The Turn of the Screw",
+            "author": 93,
+            "image_url": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1567172392i/12948.jpg",
+            "pdf_url": "https://www.ibiblio.org/ebooks/James/Turn_Screw.pdf"
+        }
+    },
+    {
+        "model": "books.author",
+        "pk": 94,
+        "fields": {
+            "name": "Samuel Beckett"
+        }
+    },
+    {
+        "model": "books.book",
+        "pk": 94,
+        "fields": {
+            "title": "Waiting for Godot",
+            "author": 94,
+            "image_url": "https://barringtonstageco.org/wp-content/uploads/2022/01/2022-Season-ShowBlocks-Godot-photo1.jpg",
+            "pdf_url": "https://resources.saylor.org/wwwresources/archived/site/wp-content/uploads/2011/01/Waiting-for-Godot.pdf"
+        }
+    },
+    {
+        "model": "books.author",
+        "pk": 95,
+        "fields": {
+            "name": "Hermann Hesse"
+        }
+    },
+    {
+        "model": "books.book",
+        "pk": 95,
+        "fields": {
+            "title": "Steppenwolf",
+            "author": 95,
+            "image_url": "https://static.wikia.nocookie.net/dccu/images/f/f7/Steppenwolf_Profile.jpg/revision/latest?cb=20231018023643",
+            "pdf_url": "https://www.holybooks.com/wp-content/uploads/Steppenwolf-By-Hermann-Hesse.pdf"
+        }
+    },
+    {
+        "model": "books.author",
+        "pk": 96,
+        "fields": {
+            "name": "Salman Rushdie"
+        }
+    },
+    {
+        "model": "books.book",
+        "pk": 96,
+        "fields": {
+            "title": "Midnight's Children",
+            "author": 96,
+            "image_url": "https://m.media-amazon.com/images/I/81dm0Q2WAdL._AC_UF1000,1000_QL80_.jpg",
+            "pdf_url": "http://www.sxcsrannalibrary.co.in/sites/default/files/Midnight%27s%20Children%20-%20Salman%20Rushdie.pdf"
+        }
+    },
+    {
+        "model": "books.author",
+        "pk": 97,
+        "fields": {
+            "name": "Vladimir Nabokov"
+        }
+    },
+    {
+        "model": "books.book",
+        "pk": 97,
+        "fields": {
+            "title": "Lolita",
+            "author": 97,
+            "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Lolita_%281962_film_poster%29.jpg/1200px-Lolita_%281962_film_poster%29.jpg",
+            "pdf_url": "https://mrbeland.weebly.com/uploads/3/0/5/5/30558007/lolita.pdf"
+        }
+    },
+    {
+        "model": "books.author",
+        "pk": 98,
+        "fields": {
+            "name": "Toni Morrison"
+        }
+    },
+    {
+        "model": "books.book",
+        "pk": 98,
+        "fields": {
+            "title": "Beloved",
+            "author": 98,
+            "image_url": "https://m.media-amazon.com/images/I/51Qj9kPD4CL._AC_UF1000,1000_QL80_.jpg",
+            "pdf_url": "http://ieas-szeged.hu/downtherabbithole/wp-content/uploads/2020/02/Toni-Morrison.-Beloved.pdf"
+        }
+    },
+    {
+        "model": "books.author",
+        "pk": 99,
+        "fields": {
+            "name": "Michael Ondaatje"
+        }
+    },
+    {
+        "model": "books.book",
+        "pk": 99,
+        "fields": {
+            "title": "The English Patient",
+            "author": 99,
+            "image_url": "https://m.media-amazon.com/images/M/MV5BMTk2MjQ4MTcyNF5BMl5BanBnXkFtZTcwODU2ODAxNw@@._V1_.jpg",
+            "pdf_url": "https://adebiportal.kz/upload/iblock/d30/d309aee1d14d2a2202554cb66ce50a0c.pdf"
+        }
+    },
+    {
+        "model": "books.author",
+        "pk": 100,
+        "fields": {
+            "name": "Albert Camus"
+        }
+    },
+    {
+        "model": "books.book",
+        "pk": 100,
+        "fields": {
+            "title": "The Stranger",
+            "author": 100,
+            "image_url": "https://m.media-amazon.com/images/M/MV5BZmJkZDZkYTItOGZjNy00MTRmLTk4YWQtOWZmNTZkYThhZDAwXkEyXkFqcGdeQXVyOTc1NDIxNDA@._V1_.jpg",
+            "pdf_url": "https://www.slps.org/site/handlers/filedownload.ashx?moduleinstanceid=27607&dataid=78367&FileName=The%20Stranger%20-%20Albert%20Camus.pdf"
+        }
+    },
+    {
+        "model": "books.author",
+        "pk": 101,
+        "fields": {
+            "name": "Chinua Achebe"
+        }
+    },
+    {
+        "model": "books.book",
+        "pk": 101,
+        "fields": {
+            "title": "Things Fall Apart",
+            "author": 101,
+            "image_url": "https://m.media-amazon.com/images/I/91NtvTU0xEL._AC_UF1000,1000_QL80_.jpg",
+            "pdf_url": "https://books-library.net/files/books-library.online-12270807Tw6Z2.pdf"
+        }
+    },
+    {
+        "model": "books.author",
+        "pk": 102,
+        "fields": {
+            "name": "Ralph Ellison"
+        }
+    },
+    {
+        "model": "books.book",
+        "pk": 102,
+        "fields": {
+            "title": "Invisible Man",
+            "author": 102,
+            "image_url": "https://static1.colliderimages.com/wordpress/wp-content/uploads/2023/07/invisible-man-movies-ranked.jpg",
+            "pdf_url": "https://modernforms.org /wp-content/uploads/Ralph-Ellison-Invisible-Man-Text.pdf"
+        }
+    },
+    {
+        "model": "books.author",
+        "pk": 103,
+        "fields": {
+            "name": "Alice Walker"
+        }
+    },
+    {
+        "model": "books.book",
+        "pk": 103,
+        "fields": {
+            "title": "The Color Purple",
+            "author": 103,
+            "image_url": "https://m.media-amazon.com/images/M/MV5BYjBkNGE0NGYtYmU5Ny00NjRiLTk5MmYtMWU4NzYxMDE4YWY4XkEyXkFqcGdeQXVyMTUzMTg2ODkz._V1_.jpg",
+            "pdf_url": "https://s3.amazonaws.com/scschoolfiles/112/the-color-purple-alice-walker.pdf"
+        }
+    },
+    {
+        "model": "books.author",
+        "pk": 104,
+        "fields": {
+            "name": "Naguib Mahfouz"
+        }
+    },
+    {
+        "model": "books.book",
+        "pk": 104,
+        "fields": {
+            "title": "The Cairo Trilogy",
+            "author": 104,
+            "image_url": "https://m.media-amazon.com/images/I/71LTvL4rW7L._AC_UF1000,1000_QL80_.jpg",
+            "pdf_url": "https://www.yumpu.com/fr/document/view/66987767/pdf-full-download-the-cairo-trilogy-palace-walk-palace-of-desire-sugar-street-everymans-library"
+        }
+    },
+    {
+        "model": "books.author",
+        "pk": 105,
+        "fields": {
+            "name": "Isabel Allende"
+        }
+    },
+    {
+        "model": "books.book",
+        "pk": 105,
+        "fields": {
+            "title": "The House of the Spirits",
+            "author": 105,
+            "image_url": "https://m.media-amazon.com/images/M/MV5BOWRmNjFkOGQtNjk1MC00OWM0LWE3YjItNWIxNWM5MjYzZjcxXkEyXkFqcGdeQXVyMTA0MjU0Ng@@._V1_.jpg",
+            "pdf_url": "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://books-library.net/files/books-library.online-01150916Fz1J5.pdf&ved=2ahUKEwievc_11pKHAxVWElkFHf03ALIQFnoECEoQAQ&usg=AOvVaw3aMb6LMAORTWHhLpBFC2u0https://epdf.pub/the-feast-of-the-goat065f368297d9a72b2deaf77e3cbc504533527.html"
+        }
+    },
+    {
+        "model": "books.author",
+        "pk": 106,
+        "fields": {
+            "name": "Mario Vargas Llosa"
+        }
+    },
+    {
+        "model": "books.book",
+        "pk": 106,
+        "fields": {
+            "title": "The Feast of the Goat",
+            "author": 106,
+            "image_url": "https://m.media-amazon.com/images/I/812avbILCKL._AC_UF1000,1000_QL80_.jpg",
+            "pdf_url": "https://lists.iearn.org/results/browse/HomePages/the_feast_of_the_goat.pdf"
+        }
+    },
+    {
+        "model": "books.author",
+        "pk": 107,
+        "fields": {
+            "name": "Orhan Pamuk"
+        }
+    },
+    {
+        "model": "books.book",
+        "pk": 107,
+        "fields": {
+            "title": "My Name is Red",
+            "author": 107,
+            "image_url": "https://m.media-amazon.com/images/I/714GTQRMRRL._AC_UF1000,1000_QL80_.jpg",
+            "pdf_url": "https://www.docdroid.net/pOOy8ht/pdf-download-my-name-is-red-by-orhan-pamuk-pdf"
+        }
+    },
+    {
+        "model": "books.author",
+        "pk": 108,
+        "fields": {
+            "name": "Haruki Murakami"
+        }
+    },
+    {
+        "model": "books.book",
+        "pk": 108,
+        "fields": {
+            "title": "Kafka on the Shore",
+            "author": 108,
+            "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ_9mje0pXjDlsj-pe2rAUzOicwz1nxl93yRg&s",
+            "pdf_url": "https://www.btsgtheories.com/wp-content/uploads/2020/07/kafka-24grammata.com-free-e-book.-pdf-1.pdf"
+        }
+    },
+    {
+        "model": "books.author",
+        "pk": 109,
+        "fields": {
+            "name": "Elena Ferrante"
+        }
+    },
+    {
+        "model": "books.book",
+        "pk": 109,
+        "fields": {
+            "title": "My Brilliant Friend",
+            "author": 109,
+            "image_url": "https://m.media-amazon.com/images/I/91sQXtddwJS._AC_UF1000,1000_QL80_.jpg",
+            "pdf_url": "https://pdfdrive.com.co/my-brilliant-friend-pdf/"
+        }
+    },
+    {
+        "model": "books.author",
+        "pk": 110,
+        "fields": {
+            "name": "Mo Yan"
+        }
+    },
+    {
+        "model": "books.book",
+        "pk": 110,
+        "fields": {
+            "title": "Red Sorghum",
+            "author": 110,
+            "image_url": "https://m.media-amazon.com/images/I/61BWA8un1UL._AC_UF894,1000_QL80_.jpg",
+            "pdf_url": "https://epdf.pub/red-sorghum-a-novel-of-chinaee67e8437f0637e3b4daa1985d5f51de49261.html"
+        }
+    },
+    {
+        "model": "books.author",
+        "pk": 111,
+        "fields": {
+            "name": "Khaled Hosseini"
+        }
+    },
+    {
+        "model": "books.book",
+        "pk": 111,
+        "fields": {
+            "title": "The Kite Runner",
+            "author": 111,
+            "image_url": "https://m.media-amazon.com/images/I/81LVEH25iJL._AC_UF1000,1000_QL80_.jpg",
+            "pdf_url": "https://mrsmeganparrish.weebly.com/uploads/3/8/0/5/38056115/the_kite_runner.pdf"
+        }
+    },
+    {
+        "model": "books.author",
+        "pk": 112,
+        "fields": {
+            "name": "Kazuo Ishiguro"
+        }
+    },
+    {
+        "model": "books.book",
+        "pk": 112,
+        "fields": {
+            "title": "Never Let Me Go",
+            "author": 112,
+            "image_url": "https://m.media-amazon.com/images/I/71DgZ3LElXL._AC_UF894,1000_QL80_.jpg",
+            "pdf_url": "https://www.swgs.wilts.sch.uk/wp-content/uploads/2021/05/Never-Let-Me-Go-by-Kazuo-Ishiguro.pdf"
+        }
+    },
+    {
+        "model": "books.author",
+        "pk": 113,
+        "fields": {
+            "name": "Zadie Smith"
+        }
+    },
+    {
+        "model": "books.book",
+        "pk": 113,
+        "fields": {
+            "title": "White Teeth",
+            "author": 113,
+            "image_url": "https://m.media-amazon.com/images/I/813aDU5TTKL._AC_UF894,1000_QL80_.jpg",
+            "pdf_url": "https://courses.upwego.ru/encyclopedia/books/White_Teeth.pdf"
+        }
+    },
+    {
+        "model": "books.author",
+        "pk": 114,
+        "fields": {
+            "name": "Jhumpa Lahiri"
+        }
+    },
+    {
+        "model": "books.book",
+        "pk": 114,
+        "fields": {
+            "title": "The Namesake",
+            "author": 114,
+            "image_url": "https://m.media-amazon.com/images/I/51NeW8Xsx+L._AC_UF1000,1000_QL80_.jpg",
+            "pdf_url": "https://www.rljdmcdavpselibrary.com/books/jhumpalahiri.pdf"
+        }
+    },
+    {
+        "model": "books.author",
+        "pk": 115,
+        "fields": {
+            "name": "Chimamanda Ngozi Adichie"
+        }
+    },
+    {
+        "model": "books.book",
+        "pk": 115,
+        "fields": {
+            "title": "Half of a Yellow Sun",
+            "author": 115,
+            "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS6HGAqfuPwKdzhiukAwXjlvPEw1Wmg4Tr6Sw&s",
+            "pdf_url": "https://www.dirzon.com/Doc/Details/_:Half%20of%20a%20Yellow%20Sun.pdf"
+        }
+    },
+    {
+        "model": "books.author",
+        "pk": 116,
+        "fields": {
+            "name": "Colson Whitehead"
+        }
+    },
+    {
+        "model": "books.book",
+        "pk": 116,
+        "fields": {
+            "title": "The Underground Railroad",
+            "author": 116,
+            "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSXzB4e1PDnftxRtIDBTVH2nvDR-I_fm5HNdQ&s",
+            "pdf_url": "https://openlibrary-repo.ecampusontario.ca/jspui/bitstream/123456789/1281/1/The-Underground-Railroad-1645718065.pdf"
+        }
+    },
+    {
+        "model": "books.author",
+        "pk": 117,
+        "fields": {
+            "name": "George Saunders"
+        }
+    },
+    {
+        "model": "books.book",
+        "pk": 117,
+        "fields": {
+            "title": "Lincoln in the Bardo",
+            "author": 117,
+            "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcROxI5I7MizGM4lpCg73iCjGA6uRn5UTIbCGQ&s",
+            "pdf_url": "https://www.yumpu.com/de/document/view/67932694/pdfdownload-lincoln-in-the-bardo-a-novel"
+        }
+    },
+    {
+        "model": "books.author",
+        "pk": 118,
+        "fields": {
+            "name": "George Orwell"
+        }
+    },
+    {
+        "model": "books.book",
+        "pk": 118,
+        "fields": {
+            "title": "Animal Farm",
+            "author": 118,
+            "image_url": "https://m.media-amazon.com/images/I/91Lbhwt5RzL._AC_UF1000,1000_QL80_.jpg",
+            "pdf_url": "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://www.arvindguptatoys.com/arvindgupta/orwellanimalfarm.pdf&ved=2ahUKEwij39WE15KHAxU0FlkFHS5XCNEQFnoECBsQAQ&usg=AOvVaw1AyAyZlQkNdKrL8pf268TL/search?sca_esv=6c0932c0a5d23975&q=Life+of+pi+pdf+free+download+in+english&uds=ADvngMgigFsdUx7XCRS4MDFx2lfW8C7Fg-p_MP4igfDeuY1FQoVuBLnKJu2tswZ-_APlf0lJXmV0XRFweX6N0AZ6QjmeIreXyQ0Sa0HfDESft-CAP6ls1HRjahgmB3QnaqCLrMkW3kIwHt2equuvk9-J69k5UbGjL4PfAav6CMIWU0k9V2go6Ts&sa=X&ved=2ahUKEwiW-ZOW0JKHAxUNpJUCHcmdCaQQxKsJegQICRAB&ictx=0"
+        }
+    },
+    {
+        "model": "books.author",
+        "pk": 119,
+        "fields": {
+            "name": "Yann Martel"
+        }
+    },
+    {
+        "model": "books.book",
+        "pk": 119,
+        "fields": {
+            "title": "Life of Pi",
+            "author": 119,
+            "image_url": "https://m.media-amazon.com/images/I/81E9oNSK3bL._AC_UF1000,1000_QL80_.jpg",
+            "pdf_url": "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://www.ssgopalganj.in/online/E-Books/CLASS%2520VIII/Life%2520of%2520Pi%2520by%2520Yann%2520Martel.pdf&ved=2ahUKEwji9q3dgZOHAxW_VaQEHTaSB3YQFnoECBoQAQ&usg=AOvVaw1EohGKB3E8TVYkDO4AJ83G"
+        }
+    },
+    {
+        "model": "books.author",
+        "pk": 120,
+        "fields": {
+            "name": "E.L. Doctorow"
+        }
+    },
+    {
+        "model": "books.book",
+        "pk": 120,
+        "fields": {
+            "title": "Ragtime",
+            "author": 120,
+            "image_url": "https://m.media-amazon.com/images/M/MV5BNDk0ZTQ3ODAtMjUwMi00YzQ2LTgyMDAtZWY4ZGIxNTRlYzIwXkEyXkFqcGdeQXVyNjQzNDI3NzY@._V1_.jpg",
+            "pdf_url": "https://jmcchesney.weebly.com/uploads/2/3/8/3/23836140/ragtime_pdf.pdf"
         }
     }
 ]
