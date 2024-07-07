@@ -113,7 +113,7 @@ body {
 
 .box {
     background-color: #fca311;
-    width: 40%;
+    width: 50%;
     margin: 30px;
     padding: 20px;
     border: 1px solid #ccc;
@@ -255,7 +255,7 @@ footer .copyright {
 }
 
 .submit-btn {
-    width: 100%;
+    width: 106%;
     padding: 10px 15px;
     background-color: #fca311;
     color: #fff;

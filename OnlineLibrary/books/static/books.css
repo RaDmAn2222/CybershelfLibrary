@@ -63,8 +63,37 @@ body {
     border-radius: 80px;
 }
 
+.search-bar {
+    text-align: center;
+    margin-top: 90px;
+}
+
+.search-bar input[type="text"] {
+    width: 50%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    margin-right: 10px;
+}
+
+.search-bar button {
+    padding: 10px 20px;
+    font-size: 16px;
+    color: black;
+    background-color: #fca311;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.search-bar button:hover {
+    background-color: #f09a0f;
+}
+
+
 .toph {
-    margin-top: 60px;
+    margin-top: 40px;
     margin-left: 13%;
     font-size: 100%;
 }
@@ -136,6 +165,44 @@ body {
 
 .tiles article:hover img {
     transform: scale(1.05); /* Slightly smaller scale effect */
+}
+
+
+.pagination {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+.pagination-list {
+    list-style-type: none;
+    padding: 0;
+    display: inline-block;
+}
+
+.pagination-list li {
+    display: inline;
+    margin: 0 5px;
+}
+
+.page-link {
+    color: #0d1b2a;
+    text-decoration: none;
+    border: 1px solid #dee2e6;
+    padding: 5px 10px;
+    border-radius: 50%;
+    display: inline-block;
+    font-size: 1rem;
+}
+
+.page-link:hover {
+    background-color: #e2e2e2;
+}
+
+.page-link.active {
+    background-color: #0d1b2a;
+    color: white;
+    border-color: #0d1b2a;
 }
 
 
@@ -249,7 +316,7 @@ footer .copyright {
 }
 
 .submit-btn {
-    width: 100%;
+    width: 106%;
     padding: 10px 15px;
     background-color: #fca311;
     color: #fff;

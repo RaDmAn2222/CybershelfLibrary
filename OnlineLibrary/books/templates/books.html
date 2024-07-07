@@ -14,21 +14,30 @@
             <header>
                 <div class="container">
                     <div class="topnav">
-                    <a href="/">Home</a>
-                    <a class="active"  href="/books">Books</a>
-                    <a href="/about">About</a>
+                        <a href="/">Home</a>
+                        <a class="active"  href="/books">Books</a>
+                        <a href="/about">About</a>
                     </div>
                 </div>
             </header>
 
+            <!-- Search Form -->
+            <div class="search-bar">
+                <form method="get" action="/books">
+                    <input type="text" name="q" value="{{ query|default_if_none:'' }}" placeholder="Search for books or authors...">
+                    <button type="submit">Search</button>
+                </form>
+            </div>
+
             <div class="toph">
                 <h1>Available Books for Downloading!</h1>
             </div>
+
             <!-- Main Content -->
             <div class="maindiv">
                 <div class="tiles">
-                    {% if books %}
-                        {% for book in books|slice:":24" %}
+                    {% if page_obj %}
+                        {% for book in page_obj %}
                             <article class="style1">
                                 <span class="image">
                                     <a href="{{ book.pdf_url }}" target="_blank">
@@ -45,6 +54,29 @@
                     {% endif %}
                 </div>
             </div>            
+            
+            <!-- Pagination Controls -->
+            <div class="pagination">
+                <ul class="pagination-list">
+                    {% if page_obj.has_previous %}
+                        <li><a href="?page=1{% if query %}&q={{ query }}{% endif %}" class="page-link">&laquo;</a></li>
+                        <li><a href="?page={{ page_obj.previous_page_number }}{% if query %}&q={{ query }}{% endif %}" class="page-link">&lsaquo;</a></li>
+                    {% endif %}
+
+                    {% for num in page_obj.paginator.page_range %}
+                        {% if page_obj.number == num %}
+                            <li><span class="page-link active">{{ num }}</span></li>
+                        {% elif num > page_obj.number|add:'-3' and num < page_obj.number|add:'3' %}
+                            <li><a href="?page={{ num }}{% if query %}&q={{ query }}{% endif %}" class="page-link">{{ num }}</a></li>
+                        {% endif %}
+                    {% endfor %}
+
+                    {% if page_obj.has_next %}
+                        <li><a href="?page={{ page_obj.next_page_number }}{% if query %}&q={{ query }}{% endif %}" class="page-link">&rsaquo;</a></li>
+                        <li><a href="?page={{ page_obj.paginator.num_pages }}{% if query %}&q={{ query }}{% endif %}" class="page-link">&raquo;</a></li>
+                    {% endif %}
+                </ul>
+            </div>
             
             <!-- Footer -->
             <footer id="footer">
