@@ -152,3 +152,12 @@ COMPRESS_PRECOMPILERS = (
 )
 
 COMPRESS_ENABLED = True
+
+EMAIL_BACKEND = ''
+EMAIL_HOST = ''
+EMAIL_PORT = 587
+EMAIL_USE_TLS = True
+EMAIL_HOST_USER = ''
+EMAIL_HOST_PASSWORD = ''  # Use the app password if 2FA is enabled
+DEFAULT_FROM_EMAIL = ''
+SUPPORT_EMAIL = ''  # Replace with the support email address if different

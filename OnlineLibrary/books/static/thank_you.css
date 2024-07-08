@@ -1,0 +1,62 @@
+@font-face {
+    font-family: 'rubik';
+    src: url("fonts/Rubik-Regular.ttf");
+}
+
+* {
+    font-family: "rubik";
+}
+
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Container */
+.container {
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Header */
+h1 {
+    font-size: 2.5em;
+    color: #0d1b2a;
+    margin-bottom: 10px;
+}
+
+/* Paragraph */
+p {
+    font-size: 1.2em;
+    color: #555;
+    margin-bottom: 20px;
+}
+
+/* Button */
+a {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 1em;
+    color: black;
+    background-color: #fca311;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+
+a:hover {
+    background-color: #f09a0f;
+}
