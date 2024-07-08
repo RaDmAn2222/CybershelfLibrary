@@ -49,16 +49,18 @@ def contact(request):
             send_mail(
                 "New Contact Us Message from CyberShelfLibrary",
                 full_message,
-                [settings.SUPPORT_EMAIL],
+                settings.DEFAULT_FROM_EMAIL,  # Use the default from email
+                [settings.SUPPORT_EMAIL],  # This should be a list
                 fail_silently=False,
             )
             return redirect("thank_you")
     else:
         form = ContactForm()
-        template = loader.get_template("main.html")
-        context = {
-            "form": form,
-        }
+        
+    template = loader.get_template("main.html")
+    context = {
+        "form": form,
+    }
     return HttpResponse(template.render(context, request))
 
 def thank_you(request):
