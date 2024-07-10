@@ -9,7 +9,6 @@
 
 /* General Styles */
 body {
-    font-family: Arial, sans-serif;
     background-color: #f8f9fa;
     color: #333;
     margin: 0;
@@ -25,22 +24,23 @@ body {
     background: white;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    max-width: 600px;
-    width: 100%;
+    max-width: 90%;
+    width: 600px;
     padding: 20px;
     text-align: center;
+    margin: 10%;
 }
 
 /* Header */
 h1 {
-    font-size: 2.5em;
+    font-size: 2em;
     color: #0d1b2a;
     margin-bottom: 10px;
 }
 
 /* Paragraph */
 p {
-    font-size: 1.2em;
+    font-size: 1em;
     color: #555;
     margin-bottom: 20px;
 }
@@ -59,4 +59,40 @@ a {
 
 a:hover {
     background-color: #f09a0f;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .container {
+        padding: 15px;
+        margin: 10%;
+    }
+
+    h1 {
+        font-size: 1.8em;
+    }
+
+    p {
+        font-size: 0.9em;
+    }
+
+    a {
+        font-size: 0.9em;
+        padding: 8px 16px;
+    }
+}
+
+@media (max-width: 480px) {
+    h1 {
+        font-size: 1.5em;
+    }
+
+    p {
+        font-size: 0.8em;
+    }
+
+    a {
+        font-size: 0.8em;
+        padding: 6px 12px;
+    }
 }
