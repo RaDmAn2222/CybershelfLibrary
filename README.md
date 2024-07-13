@@ -1,6 +1,6 @@
 # [CybershelfLibrary](https://cybershelflibrary.pythonanywhere.com/)
 
-
+<img src="OnlineLibrary/books/static/images/website_logo.png" width="300">
 
 Welcome to CyberShelf Library, your premier online destination for digital literature and knowledge.
 
@@ -20,12 +20,12 @@ CyberShelf Library offers an extensive collection of e-books, audiobooks, and di
 
 ## Features
 
-- **E-books**: Access thousands of e-books across various genres including fiction, non-fiction, and academic works.
-- **Audiobooks**: Enjoy a vast collection of audiobooks for all ages, perfect for on-the-go learning and entertainment.
-- **Magazines & Journals**: Stay updated with the latest issues of popular magazines and academic journals.
-- **Historical Archives**: Dive into historical documents, rare manuscripts, and archives dating back centuries.
-- **Personalized Recommendations**: Get book recommendations based on your reading history and preferences.
-- **Virtual Events**: Participate in book clubs, author Q&A sessions, and various workshops and webinars.
+- **Discover**: Thousands of e-books, audiobooks, and more at your fingertips.
+- **Explore**: Diverse collections, from bestsellers to rare manuscripts.
+- **Engage**: Join our virtual events, book clubs, and author Q&A sessions.
+- **Learn**: Access research assistance and personalized recommendations.
+- **Connect**: Stay updated with our newsletter and follow us on social media.
+- **Join Today**: Become a member and unlock exclusive benefits.
 
 ## Installation
 
