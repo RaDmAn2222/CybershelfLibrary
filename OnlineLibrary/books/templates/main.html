@@ -20,6 +20,17 @@
                         <a href="/about">About</a>
                     </div>
                     </div>
+                    <div class="theme-switch-wrapper">
+                        <label class="theme-switch" for="checkbox">
+                            <input type="checkbox" id="checkbox" />
+                            <div class="slider">
+                                <div class="icons_theme">
+                                    <span class="sun">☀️</span>
+                                    <span class="moon">🌙</span>
+                                </div>
+                            </div>
+                        </label>
+                    </div>                    
                     <div class="description">
                         <h1>CyberShelf Library: Your Digital Gateway to Knowledge...</h1>
                         <p> Your premier online destination for digital literature and knowledge. Dive into a world of endless possibilities with CyberShelf Library!</p>
@@ -44,11 +55,11 @@
                     <p>Diverse collections, from bestsellers to rare manuscripts.</p>
                 </div>
                 <div class="box">
-                    <img src="{% static 'images/handshake.png' %}" />
+                    <img src="{% static 'images/stress.png' %}" />
                     <br>
-                    <h>Engage</h>
+                    <h>New Perspectives</h>
                     <br>
-                    <p>Join our virtual events, book clubs, and author Q&A sessions.</p>
+                    <p>Others' interests and recommendations guides you to new perspectives.</p>
                 </div>
                 <div class="box">
                     <img src="{% static 'images/learning.png' %}" />
@@ -65,11 +76,11 @@
                     <p>Stay updated with our newsletter and follow us on social media.</p>
                 </div>
                 <div class="box">
-                    <img src="{% static 'images/join.png' %}" />
+                    <img src="{% static 'images/suggestion.png' %}" />
                     <br>
-                    <h>Join Today</h>
+                    <h>Recommend</h>
                     <br>
-                    <p>Become a member and unlock exclusive benefits.</p>
+                    <p>Recommend your desired books through contact us section.</p>
                 </div>
             </div>            
             
@@ -104,6 +115,16 @@
                                     <img src="{% static 'images/email.png' %}" alt="Email">
                                 </a>
                             </li>
+                            <li>
+                                <a href="https://www.instagram.com/radmanhbb/" target="_blank" class="icon solid style2 fa-envelope">
+                                    <img src="/static/images/instagram.png" alt="Instagram">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://x.com/RaDmAn2222_?s=35" target="_blank" class="icon solid style2 fa-envelope">
+                                    <img src="/static/images/twitter.png" alt="X">
+                                </a>
+                            </li>
                         </ul>
                     </div>
                     <div class="reference">
@@ -119,5 +140,28 @@
             </footer>            
         </div>
 
+        <script>
+            const toggleSwitch = document.querySelector('#checkbox');
+            const currentTheme = localStorage.getItem('theme');
+        
+            if (currentTheme) {
+                document.body.classList.add(currentTheme);
+        
+                if (currentTheme === 'dark-theme') {
+                    toggleSwitch.checked = true;
+                }
+            }
+        
+            toggleSwitch.addEventListener('change', function () {
+                if (toggleSwitch.checked) {
+                    document.body.classList.add('dark-theme');
+                    localStorage.setItem('theme', 'dark-theme');
+                } else {
+                    document.body.classList.remove('dark-theme');
+                    localStorage.setItem('theme', 'light-theme');
+                }
+            });
+        </script>
+        
     </body>
 </html>

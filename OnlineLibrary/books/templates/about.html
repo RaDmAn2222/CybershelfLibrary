@@ -19,6 +19,17 @@
                     <a class="active" href="/about">About</a>
                     </div>
                 </div>
+                <div class="theme-switch-wrapper">
+                    <label class="theme-switch" for="checkbox">
+                        <input type="checkbox" id="checkbox" />
+                        <div class="slider round">
+                            <div class="icons_theme">
+                                <span class="moon">🌙</span>
+                                <span class="sun">☀️</span>
+                            </div>
+                        </div>
+                    </label>
+                </div>
             </header>
 
             <div class="maincontent">
@@ -59,6 +70,16 @@
                                     <img src="{% static 'images/email.png' %}" alt="Email">
                                 </a>
                             </li>
+                            <li>
+                                <a href="https://www.instagram.com/radmanhbb/" target="_blank" class="icon solid style2 fa-envelope">
+                                    <img src="/static/images/instagram.png" alt="Instagram">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://x.com/RaDmAn2222_?s=35" target="_blank" class="icon solid style2 fa-envelope">
+                                    <img src="/static/images/twitter.png" alt="X">
+                                </a>
+                            </li>
                         </ul>
                     </div>
                     <div class="reference">
@@ -75,7 +96,27 @@
         </div>
 
 
-        <script src="{% static 'js/randomColors.js' %}"></script>
-
+        <script>
+            const toggleSwitch = document.querySelector('#checkbox');
+            const currentTheme = localStorage.getItem('theme');
+        
+            if (currentTheme) {
+                document.body.classList.add(currentTheme);
+        
+                if (currentTheme === 'dark-theme') {
+                    toggleSwitch.checked = true;
+                }
+            }
+        
+            toggleSwitch.addEventListener('change', function () {
+                if (toggleSwitch.checked) {
+                    document.body.classList.add('dark-theme');
+                    localStorage.setItem('theme', 'dark-theme');
+                } else {
+                    document.body.classList.remove('dark-theme');
+                    localStorage.setItem('theme', 'light-theme');
+                }
+            });
+        </script>
     </body>
 </html>
