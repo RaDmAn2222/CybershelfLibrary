@@ -2,11 +2,11 @@
 <!DOCTYPE HTML>
 <html>
     <head>
-        <title>About - CyberShelf Library</title>
+        <title>{{ author.0.name }} Books | CyberShelf Library</title>
         <link rel="icon" href="{% static 'images/website_logo.png' %}">
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-        <link rel="stylesheet" href="{% static 'about.css' %}" />
+        <link rel="stylesheet" href="{% static 'author_books.css' %}" />
     </head>
     <body class="is-preload">
         <div id="wrapper">
@@ -16,14 +16,14 @@
                     <div class="topnav">
                         <a href="/">Home</a>
                         <div class="dropdown">
-                            <a href="#" id="dropdown-trigger">Library</a>
+                            <a class="active" href="#" id="dropdown-trigger">Library</a>
                             <div class="dropdown-content">
                                 <a href="/books">Books</a>
                                 <a href="{% url 'authors_list' %}">Authors</a>
                                 <a href="{% url 'genres_list' %}">Genres</a>
                             </div>
                         </div>
-                        <a class="active" href="/about">About</a>
+                        <a href="/about">About</a>
                     </div>
                 </div>
                 <div class="theme-switch-wrapper">
@@ -39,11 +39,68 @@
                 </div>
             </header>
 
-            <div class="maincontent">
-                <p>Cybershelf Library is the culmination of my meticulous development journey aimed at redefining the digital reading experience. Leveraging Django for its robust backend capabilities and MySQL for efficient data handling, I meticulously crafted a platform that seamlessly integrates HTML and CSS for a visually appealing and intuitive user interface. Throughout this development journey, ChatGPT was instrumental in providing insightful guidance and answering technical questions, ensuring a smooth and efficient project execution. My intention with Cybershelf Library is to create a dynamic hub where users can effortlessly explore, discover, and engage with a diverse array of digital content. Whether you're seeking academic resources, literary classics, or cutting-edge research, Cybershelf Library is designed to empower and enrich your reading journey like never before. Join me as I continue to innovate and expand the horizons of digital literacy and knowledge dissemination.</p>
-                <p>In addition, this website is developed for expanding my knowledge of relational databases(MySQL) and Django. I hope it has assisted this intention and be an appropriate sample project for this. The HTML and CSS codes are also written by myself.</p>
-                <p>Thank you for your support!</p>
-                <p>- RaDmAn2222</p>
+            <!-- Search Form -->
+            <div class="search-bar">
+                <form method="get" action="/books">
+                    <input type="text" name="q" value="{{ query|default_if_none:'' }}" placeholder="Search for books, authors, genres...">
+                    <button type="submit">Search</button>
+                </form>
+            </div>
+
+            <!-- Page Title -->
+            <div class="toph">
+                <h1>{{ author.0.name }}'s Books</h1>
+            </div>
+
+            <!-- Main Content -->
+            <div class="maindiv">
+                <div class="tiles">
+                    {% if page_obj %}
+                        {% for book in page_obj %}
+                            <article class="style1">
+                                <span class="image">
+                                    <a href="{{ book.pdf_url }}" target="_blank">
+                                        <img src="{{ book.image_url }}" alt="{{ book.title }}"/>
+                                    </a>
+                                </span>
+                                <div class="book-info">
+                                    <h2 class="book-title">{{ book.title }}</h2>
+                                    <p class="book-author">
+                                        <a href="{% url 'author_books' book.author %}">By {{ book.author }}</a>
+                                    </p>                                    <p class="book-genres">
+                                        {% for genre in book.genre.all %}
+                                            <a href="{% url 'genre_books' genre.name %}">{{ genre.name }}{% if not forloop.last %}, {% endif %}</a>
+                                        {% endfor %}
+                                    </p>
+                                </div>
+                            </article>
+                        {% endfor %}
+                    {% else %}
+                        <p>No books available in this genre.</p>
+                    {% endif %}
+                </div>
+            </div>
+
+            <div class="pagination">
+                <ul class="pagination-list">
+                    {% if page_obj.has_previous %}
+                        <li><a href="?page=1{% if query %}&q={{ query }}{% endif %}" class="page-link">&laquo;</a></li>
+                        <li><a href="?page={{ page_obj.previous_page_number }}{% if query %}&q={{ query }}{% endif %}" class="page-link">&lsaquo;</a></li>
+                    {% endif %}
+
+                    {% for num in page_obj.paginator.page_range %}
+                        {% if page_obj.number == num %}
+                            <li><span class="page-link active">{{ num }}</span></li>
+                        {% elif num > page_obj.number|add:'-3' and num < page_obj.number|add:'3' %}
+                            <li><a href="?page={{ num }}{% if query %}&q={{ query }}{% endif %}" class="page-link">{{ num }}</a></li>
+                        {% endif %}
+                    {% endfor %}
+
+                    {% if page_obj.has_next %}
+                        <li><a href="?page={{ page_obj.next_page_number }}{% if query %}&q={{ query }}{% endif %}" class="page-link">&rsaquo;</a></li>
+                        <li><a href="?page={{ page_obj.paginator.num_pages }}{% if query %}&q={{ query }}{% endif %}" class="page-link">&raquo;</a></li>
+                    {% endif %}
+                </ul>
             </div>
 
             <!-- Footer -->
@@ -103,8 +160,6 @@
                 </ul>
             </footer>
         </div>
-
-
         <script>
             const toggleSwitch = document.querySelector('#checkbox');
             const currentTheme = localStorage.getItem('theme');

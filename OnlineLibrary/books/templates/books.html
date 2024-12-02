@@ -2,7 +2,7 @@
 <!DOCTYPE HTML>
 <html>
     <head>
-        <title>CyberShelf Library</title>
+        <title>Books - CyberShelf Library</title>
         <link rel="icon" href="{% static 'images/website_logo.png' %}">
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
@@ -15,7 +15,14 @@
                 <div class="container">
                     <div class="topnav">
                         <a href="/">Home</a>
-                        <a class="active"  href="/books">Books</a>
+                        <div class="dropdown">
+                            <a class="active" href="#" id="dropdown-trigger">Library</a>
+                            <div class="dropdown-content">
+                                <a class="active-dropdown" href="/books">Books</a>
+                                <a href="{% url 'authors_list' %}">Authors</a>
+                                <a href="{% url 'genres_list' %}">Genres</a>
+                            </div>
+                        </div>
                         <a href="/about">About</a>
                     </div>
                 </div>
@@ -35,7 +42,7 @@
             <!-- Search Form -->
             <div class="search-bar">
                 <form method="get" action="/books">
-                    <input type="text" name="q" value="{{ query|default_if_none:'' }}" placeholder="Search for books or authors...">
+                    <input type="text" name="q" value="{{ query|default_if_none:'' }}" placeholder="Search for books, authors, genres...">
                     <button type="submit">Search</button>
                 </form>
             </div>
@@ -52,11 +59,19 @@
                             <article class="style1">
                                 <span class="image">
                                     <a href="{{ book.pdf_url }}" target="_blank">
-                                        <img src="{{ book.image_url }}" alt="{{ book.title }}"/></a>
+                                        <img src="{{ book.image_url }}" alt="{{ book.title }}"/>
+                                    </a>
                                 </span>
                                 <div class="book-info">
                                     <h2 class="book-title">{{ book.title }}</h2>
-                                    <p class="book-author">By {{ book.author }}</p>
+                                    <p class="book-author">
+                                        <a href="{% url 'author_books' book.author %}">By {{ book.author }}</a>
+                                    </p>
+                                    <p class="book-genres">
+                                        {% for genre in book.genre.all %}  <!-- Add parentheses to call all() -->
+                                            <a href="{% url 'genre_books' genre.name %}">{{ genre.name }}{% if not forloop.last %}, {% endif %}</a>
+                                        {% endfor %}
+                                    </p>
                                 </div>
                             </article>
                         {% endfor %}
@@ -64,8 +79,8 @@
                         <p>No books available.</p>
                     {% endif %}
                 </div>
-            </div>            
-            
+            </div>
+
             <!-- Pagination Controls -->
             <div class="pagination">
                 <ul class="pagination-list">
@@ -88,7 +103,7 @@
                     {% endif %}
                 </ul>
             </div>
-            
+
             <!-- Footer -->
             <footer id="footer">
                 <div class="inner">
@@ -136,6 +151,8 @@
                         <h2>Quick Links</h2>
                         <a href="/"><p>Home</p></a>
                         <a href="/books"><p>Books</p></a>
+                        <a href="/authors"><p>Authors</p></a>
+                        <a href="/genres"><p>Genres</p></a>
                         <a href="/about"><p>About</p></a>
                     </div>
                 </div>
@@ -147,15 +164,15 @@
         <script>
             const toggleSwitch = document.querySelector('#checkbox');
             const currentTheme = localStorage.getItem('theme');
-        
+
             if (currentTheme) {
                 document.body.classList.add(currentTheme);
-        
+
                 if (currentTheme === 'dark-theme') {
                     toggleSwitch.checked = true;
                 }
             }
-        
+
             toggleSwitch.addEventListener('change', function () {
                 if (toggleSwitch.checked) {
                     document.body.classList.add('dark-theme');
@@ -165,6 +182,63 @@
                     localStorage.setItem('theme', 'light-theme');
                 }
             });
+
+            document.addEventListener("DOMContentLoaded", () => {
+                const dropdown = document.querySelector(".dropdown");
+                const trigger = document.querySelector("#dropdown-trigger");
+                const content = document.querySelector(".dropdown-content");
+                let isClicked = false; // Track if the dropdown was clicked
+
+                // Function to open dropdown
+                const openDropdown = () => {
+                    dropdown.classList.add("dropdown-active");
+                    content.style.display = "block";
+                    content.style.opacity = "1";
+                    content.style.visibility = "visible";
+                };
+
+                // Function to close dropdown
+                const closeDropdown = () => {
+                    dropdown.classList.remove("dropdown-active");
+                    content.style.display = "none";
+                    content.style.opacity = "0";
+                    content.style.visibility = "hidden";
+                };
+
+                // Handle hover to open dropdown
+                dropdown.addEventListener("mouseenter", () => {
+                    if (!isClicked) {
+                        openDropdown();
+                    }
+                });
+
+                dropdown.addEventListener("mouseleave", () => {
+                    if (!isClicked) {
+                        closeDropdown();
+                    }
+                });
+
+                // Handle click to toggle dropdown
+                trigger.addEventListener("click", (e) => {
+                    e.preventDefault(); // Prevent default link behavior
+                    if (isClicked) {
+                        isClicked = false;
+                        closeDropdown();
+                    } else {
+                        isClicked = true;
+                        openDropdown();
+                    }
+                });
+
+                // Close dropdown if clicking outside
+                document.addEventListener("click", (e) => {
+                    if (!dropdown.contains(e.target)) {
+                        isClicked = false;
+                        closeDropdown();
+                    }
+                });
+            });
+
         </script>
     </body>
 </html>

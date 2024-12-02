@@ -2,11 +2,11 @@
 <!DOCTYPE HTML>
 <html>
     <head>
-        <title>About - CyberShelf Library</title>
+        <title>Genres - CyberShelf Library</title>
         <link rel="icon" href="{% static 'images/website_logo.png' %}">
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-        <link rel="stylesheet" href="{% static 'about.css' %}" />
+        <link rel="stylesheet" href="{% static 'genres.css' %}" />
     </head>
     <body class="is-preload">
         <div id="wrapper">
@@ -16,14 +16,14 @@
                     <div class="topnav">
                         <a href="/">Home</a>
                         <div class="dropdown">
-                            <a href="#" id="dropdown-trigger">Library</a>
+                            <a class="active" href="#" id="dropdown-trigger">Library</a>
                             <div class="dropdown-content">
                                 <a href="/books">Books</a>
                                 <a href="{% url 'authors_list' %}">Authors</a>
-                                <a href="{% url 'genres_list' %}">Genres</a>
+                                <a class="active-dropdown" href="{% url 'genres_list' %}">Genres</a>
                             </div>
                         </div>
-                        <a class="active" href="/about">About</a>
+                        <a href="/about">About</a>
                     </div>
                 </div>
                 <div class="theme-switch-wrapper">
@@ -39,11 +39,30 @@
                 </div>
             </header>
 
-            <div class="maincontent">
-                <p>Cybershelf Library is the culmination of my meticulous development journey aimed at redefining the digital reading experience. Leveraging Django for its robust backend capabilities and MySQL for efficient data handling, I meticulously crafted a platform that seamlessly integrates HTML and CSS for a visually appealing and intuitive user interface. Throughout this development journey, ChatGPT was instrumental in providing insightful guidance and answering technical questions, ensuring a smooth and efficient project execution. My intention with Cybershelf Library is to create a dynamic hub where users can effortlessly explore, discover, and engage with a diverse array of digital content. Whether you're seeking academic resources, literary classics, or cutting-edge research, Cybershelf Library is designed to empower and enrich your reading journey like never before. Join me as I continue to innovate and expand the horizons of digital literacy and knowledge dissemination.</p>
-                <p>In addition, this website is developed for expanding my knowledge of relational databases(MySQL) and Django. I hope it has assisted this intention and be an appropriate sample project for this. The HTML and CSS codes are also written by myself.</p>
-                <p>Thank you for your support!</p>
-                <p>- RaDmAn2222</p>
+            <!-- Search Form -->
+            <div class="search-bar">
+                <form method="get" action="/books">
+                    <input type="text" name="q" value="{{ query|default_if_none:'' }}" placeholder="Search for books, authors, genres...">
+                    <button type="submit">Search</button>
+                </form>
+            </div>
+
+            <!-- Page Content -->
+            <div class="toph">
+                <h1>All Genres</h1>
+            </div>
+            <div class="maindiv">
+                <div class="flex-container">
+                    <ul class="genre-list">
+                        {% for genre in genres %}
+                            <li>
+                                <a href="{% url 'genre_books' genre.name %}">
+                                    {{ genre.name }}
+                                </a>
+                            </li>
+                        {% endfor %}
+                    </ul>
+                </div>
             </div>
 
             <!-- Footer -->
@@ -103,8 +122,6 @@
                 </ul>
             </footer>
         </div>
-
-
         <script>
             const toggleSwitch = document.querySelector('#checkbox');
             const currentTheme = localStorage.getItem('theme');
@@ -182,6 +199,7 @@
                     }
                 });
             });
+
         </script>
     </body>
 </html>

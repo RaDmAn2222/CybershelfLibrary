@@ -13,7 +13,6 @@ body {
     margin: 0;
     padding: 0;
     overflow-x: hidden; /* Prevent horizontal scrolling */
-
 }
 
 #wrapper {
@@ -43,7 +42,7 @@ body {
     gap: 10px;
 }
 
-/* Navbar links */
+/* topna.topnav links */
 .topnav a {
     float: left;
     color: black;
@@ -93,6 +92,16 @@ body {
     text-decoration: none;
     display: block;
     font-size: 18px;
+}
+
+.dropdown-content a:hover:not(.active-dropdown) {
+    color: #727272 !important;
+}
+.active-dropdown {
+    background-color: #fca311 !important;
+    color: black !important;
+    border-radius: 230px;
+    margin: 7px;
 }
 
 .theme-switch-wrapper {
@@ -206,24 +215,80 @@ body.dark-theme .topnav a {
     color: white;
 }
 
-body.dark-theme .active {
-    color: black !important;
-}
-
 body.dark-theme .dropdown-content {
     background-color: #000000 !important;
 }
 
-.maincontent {
-    margin: 100px 10%;
-    padding: 5%;
-    background-color: #adb5bd;
-    border-radius: 15px;
+body.dark-theme .toph {
+    color: white;
 }
 
-.maincontent p {
-    font-size: 120%;
+body.dark-theme .active {
+    color: black !important;
+}
+
+.search-bar {
+    text-align: center;
+    margin-top: 90px;
+}
+
+.search-bar input[type="text"] {
+    width: 50%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    margin-right: 10px;
+}
+
+.search-bar button {
+    padding: 10px 20px;
+    font-size: 16px;
     color: black;
+    background-color: #fca311;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.search-bar button:hover {
+    background-color: #f09a0f;
+}
+
+
+.toph {
+    margin-top: 40px;
+    margin-left: 13%;
+    font-size: 100%;
+}
+
+.maindiv {
+    background-color: #fca311;
+    border-radius: 50px;
+    margin: 2% 10%;
+    width: 80%;
+}
+
+.genre-list {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* 3 equal columns */
+    gap: 10px; /* Optional: space between items */
+    list-style-type: none;
+    padding: 0;
+}
+.genre-list li {
+    padding: 5px;
+}
+
+.genre-list li a {
+    color: black !important;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
+    text-align: center;
+    font-size: 120%;
 }
 
 footer {
